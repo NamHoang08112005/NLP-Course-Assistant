@@ -41,10 +41,9 @@ project/
 
 ## Chạy trực tiếp bằng Python
 
-Mở PowerShell tại thư mục `project`:
+Mở PowerShell tại thư mục gốc của project (thư mục chứa `Dockerfile`):
 
 ```powershell
-cd E:\Year_4\NLP\Test\sample-code-v1.0\project
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
@@ -56,7 +55,6 @@ python -m course_assistant
 Nếu PowerShell chặn activate script, có thể chạy không cần activate:
 
 ```powershell
-cd E:\Year_4\NLP\Test\sample-code-v1.0\project
 $env:PYTHONPATH = "src"
 python -m course_assistant
 ```
@@ -110,20 +108,59 @@ file trong thư mục `output/` để xem kết quả.
 
 ## Chạy bằng Docker
 
-Docker build context phải là chính thư mục `project`, vì Dockerfile dùng các
-file `requirements.txt` và source nằm trong thư mục này:
+### Chuẩn bị
+
+Cài Docker Desktop, khởi động Docker Engine, sau đó mở PowerShell tại chính
+thư mục gốc của project (thư mục chứa `Dockerfile`). Docker build context phải
+là thư mục này vì Dockerfile dùng
+`requirements.txt`, `input/`, `data/` và source trong đó.
+
+### Build image
 
 ```powershell
-cd E:\Year_4\NLP\Test\sample-code-v1.0\project
 docker build -t course-assistant .
+```
+
+Lệnh này tạo image `course-assistant` từ `python:3.11-slim`, cài các package
+trong `requirements.txt` và chép mã nguồn cùng dữ liệu vào image.
+
+### Chạy chương trình
+
+Để chạy một lần:
+
+```powershell
 docker run --rm course-assistant
 ```
 
-Container chạy cùng entry point `python -m course_assistant`. Kết quả được ghi
-vào `/app/output` bên trong container và sẽ mất khi container bị xóa. Để lấy
-kết quả về máy host, mount thư mục output:
+Container dùng entry point `python -m course_assistant`. Chương trình đọc
+`input/sentences.txt` và sinh các file kết quả trong `/app/output`. Tùy chọn
+`--rm` tự xóa container sau khi chạy xong.
+
+Mặc định `/app/output` chỉ tồn tại bên trong container. Để giữ kết quả trên máy
+host, mount thư mục `output`:
 
 ```powershell
+docker run --rm `
+    -v "${PWD}\output:/app/output" `
+    course-assistant
+```
+
+Sau khi chạy, kiểm tra các file sau trên máy host:
+
+```text
+output/grammar.txt
+output/samples.txt
+output/parse-results.txt
+output/semantic.txt
+output/intent-entity.txt
+```
+
+### Chạy lại sau khi thay đổi mã nguồn
+
+Image phải được build lại để nhận mã nguồn mới:
+
+```powershell
+docker build --no-cache -t course-assistant .
 docker run --rm `
     -v "${PWD}\output:/app/output" `
     course-assistant
