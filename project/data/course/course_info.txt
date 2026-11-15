@@ -5,6 +5,7 @@ course_id: CO3085
 course_name: Xử lý Ngôn ngữ Tự nhiên
 course_name_en: Natural Language Processing
 semester: HK261
+instructor: Võ Thanh Hùng
 credits: 3
 ects: 6
 course_type: Specialty / Graduation knowledge block

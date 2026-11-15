@@ -1,0 +1,731 @@
+1 | Môn Xử lý Ngôn ngữ Tự nhiên (CO3085) có 3 tín chỉ.
+2 | Môn Xử lý Ngôn ngữ Tự nhiên (CO3085) có 3 tín chỉ.
+3 | Môn Xử lý Ngôn ngữ Tự nhiên (CO3085) có 3 tín chỉ.
+4 | Môn Xử lý Ngôn ngữ Tự nhiên (CO3085) có 3 tín chỉ.
+5 | Môn Xử lý Ngôn ngữ Tự nhiên (CO3085) có 3 tín chỉ.
+6 | Môn Xử lý Ngôn ngữ Tự nhiên (CO3085) có 3 tín chỉ.
+7 | Môn Xử lý Ngôn ngữ Tự nhiên (CO3085) có 6 ECTS.
+8 | Môn Xử lý Ngôn ngữ Tự nhiên (CO3085) có 6 ECTS.
+9 | Môn Xử lý Ngôn ngữ Tự nhiên (CO3085) được tổ chức vào học kỳ HK261.
+10 | Xử lý Ngôn ngữ Tự nhiên
+11 | Natural Language Processing
+12 | Xử lý Ngôn ngữ Tự nhiên
+13 | Môn học thuộc Khoa Khoa học và Kỹ thuật Máy tính.
+14 | Môn học thuộc Khoa Khoa học và Kỹ thuật Máy tính.
+15 | Môn học thuộc khối kiến thức Specialty / Graduation knowledge block.
+16 | Mỗi tuần môn học có 2 tiết lý thuyết.
+17 | Môn học kéo dài 15 tuần.
+18 | Tổng thời lượng môn học là 150 giờ.
+19 | Thời lượng lý thuyết là 30 giờ.
+20 | Thời lượng dành cho bài tập lớn là 45 giờ.
+21 | Thời lượng tự học là 60 giờ.
+22 | Môn học cung cấp các khái niệm, lý thuyết và kỹ thuật nền tảng của xử lý ngôn ngữ tự nhiên. Nội dung được tổ chức thành ba phần chính: (1) Xử lý cú pháp, (2) Diễn dịch ngữ nghĩa, và (3) Ngữ cảnh và tri thức thế giới.
+23 | Sinh viên có khả năng phân tích các vấn đề NLP và xây dựng các chương trình/hệ thống cơ bản có khả năng hiểu ngôn ngữ tự nhiên trong một miền ứng dụng cụ thể.
+24 | Môn học gồm các phần chính: Part I - Syntactic Processing Part II - Semantic Interpretation Part III - Context and World Knowledge.
+25 | Môn học gồm các phần chính: Part I - Syntactic Processing Part II - Semantic Interpretation Part III - Context and World Knowledge.
+26 | Môn học gồm các phần chính: Part I - Syntactic Processing Part II - Semantic Interpretation Part III - Context and World Knowledge.
+27 | LO1: Tổng quan về tổ chức hệ thống NLP và các ứng dụng.; LO2: Xử lý cú pháp; xây dựng văn phạm đơn giản và phân tích cú pháp.; LO3: Diễn dịch ngữ nghĩa; tạo dạng luận lý và giải quyết nhập nhằng.; LO4: Ngữ nghĩa và tri thức thế giới; xây dựng cơ sở tri thức và hệ thống hỏi đáp đơn giản.; LO1.1: Hiểu cấu trúc hệ thống NLP, ứng dụng và cách đánh giá hệ thống hiểu ngôn ngữ tự nhiên.; LO2.1: Kiến thức cơ sở về cú pháp tiếng Anh.; LO2.2: Kiến thức cơ bản về văn phạm và phân tích cú pháp.; LO2.3: Kiến thức về nét và văn phạm gia tố.; LO2.4: Kiến thức tạo văn phạm cho ngôn ngữ tự nhiên và phương pháp parsing.; LO2.5: Kiến thức xác suất để giải quyết nhập nhằng từ ở mức câu.; LO3.1: Kiến thức về ngôn ngữ dạng luận lý và tạo dạng luận lý đơn giản.; LO3.2: Tạo tự động diễn dịch ngữ nghĩa cho câu tự nhiên.; LO3.3: Giải quyết nhập nhằng ngữ nghĩa dựa trên tri thức và thống kê.; LO3.4: Diễn dịch ngữ nghĩa bằng quan hệ văn phạm và văn phạm ngữ nghĩa.; LO4.1: Biểu diễn tri thức, suy diễn và xây dựng hệ thống hỏi đáp đơn giản.; LO4.2: Ngữ cảnh diễn ngôn cục bộ và sự tham chiếu.
+28 | Điểm chuyên cần và bài tập chiếm 15 percent.
+29 | Bài tập lớn chiếm 15 percent điểm.
+30 | Thi giữa kỳ chiếm 30 percent điểm.
+31 | Thi cuối kỳ chiếm 40 percent điểm.
+32 | Thi giữa kỳ chiếm 30 percent điểm.
+33 | Thi cuối kỳ chiếm 40 percent điểm.
+34 | Cơ cấu điểm gồm Chuyên cần và bài tập: 15 percent; Bài tập lớn: 15 percent; Giữa kỳ: 30 percent; Cuối kỳ: 40 percent.
+35 | Thời lượng thi giữa kỳ là 60 phút.
+36 | Thời lượng thi cuối kỳ là 90 phút.
+37 | Thời lượng thi giữa kỳ là 60 phút.
+38 | Thời lượng thi cuối kỳ là 90 phút.
+39 | Hình thức thi midterm là open-book, written, 60 minutes.
+40 | Hình thức thi final là open-book, written, 90 minutes.
+41 | Môn học có 12 chương.
+42 | Môn học có 12 chương.
+43 | Chương 11.
+44 | LO1: Tổng quan về tổ chức hệ thống NLP và các ứng dụng.; LO2: Xử lý cú pháp; xây dựng văn phạm đơn giản và phân tích cú pháp.; LO3: Diễn dịch ngữ nghĩa; tạo dạng luận lý và giải quyết nhập nhằng.; LO4: Ngữ nghĩa và tri thức thế giới; xây dựng cơ sở tri thức và hệ thống hỏi đáp đơn giản.; LO1.1: Hiểu cấu trúc hệ thống NLP, ứng dụng và cách đánh giá hệ thống hiểu ngôn ngữ tự nhiên.; LO2.1: Kiến thức cơ sở về cú pháp tiếng Anh.; LO2.2: Kiến thức cơ bản về văn phạm và phân tích cú pháp.; LO2.3: Kiến thức về nét và văn phạm gia tố.; LO2.4: Kiến thức tạo văn phạm cho ngôn ngữ tự nhiên và phương pháp parsing.; LO2.5: Kiến thức xác suất để giải quyết nhập nhằng từ ở mức câu.; LO3.1: Kiến thức về ngôn ngữ dạng luận lý và tạo dạng luận lý đơn giản.; LO3.2: Tạo tự động diễn dịch ngữ nghĩa cho câu tự nhiên.; LO3.3: Giải quyết nhập nhằng ngữ nghĩa dựa trên tri thức và thống kê.; LO3.4: Diễn dịch ngữ nghĩa bằng quan hệ văn phạm và văn phạm ngữ nghĩa.; LO4.1: Biểu diễn tri thức, suy diễn và xây dựng hệ thống hỏi đáp đơn giản.; LO4.2: Ngữ cảnh diễn ngôn cục bộ và sự tham chiếu.
+45 | LO1: Tổng quan về tổ chức hệ thống NLP và các ứng dụng.; LO2: Xử lý cú pháp; xây dựng văn phạm đơn giản và phân tích cú pháp.; LO3: Diễn dịch ngữ nghĩa; tạo dạng luận lý và giải quyết nhập nhằng.; LO4: Ngữ nghĩa và tri thức thế giới; xây dựng cơ sở tri thức và hệ thống hỏi đáp đơn giản.; LO1.1: Hiểu cấu trúc hệ thống NLP, ứng dụng và cách đánh giá hệ thống hiểu ngôn ngữ tự nhiên.; LO2.1: Kiến thức cơ sở về cú pháp tiếng Anh.; LO2.2: Kiến thức cơ bản về văn phạm và phân tích cú pháp.; LO2.3: Kiến thức về nét và văn phạm gia tố.; LO2.4: Kiến thức tạo văn phạm cho ngôn ngữ tự nhiên và phương pháp parsing.; LO2.5: Kiến thức xác suất để giải quyết nhập nhằng từ ở mức câu.; LO3.1: Kiến thức về ngôn ngữ dạng luận lý và tạo dạng luận lý đơn giản.; LO3.2: Tạo tự động diễn dịch ngữ nghĩa cho câu tự nhiên.; LO3.3: Giải quyết nhập nhằng ngữ nghĩa dựa trên tri thức và thống kê.; LO3.4: Diễn dịch ngữ nghĩa bằng quan hệ văn phạm và văn phạm ngữ nghĩa.; LO4.1: Biểu diễn tri thức, suy diễn và xây dựng hệ thống hỏi đáp đơn giản.; LO4.2: Ngữ cảnh diễn ngôn cục bộ và sự tham chiếu.
+46 | Thi giữa kỳ chiếm 30 percent điểm.
+47 | Thi cuối kỳ chiếm 40 percent điểm.
+48 | Môn Xử lý Ngôn ngữ Tự nhiên (CO3085) được tổ chức vào học kỳ HK261.
+49 | Hình thức thi midterm là open-book, written, 60 minutes.
+50 | Thời lượng thi giữa kỳ là 60 phút.
+51 | Môn Xử lý Ngôn ngữ Tự nhiên (CO3085) có 3 tín chỉ.
+52 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+53 | Giảng viên của môn Xử lý Ngôn ngữ Tự nhiên là Võ Thanh Hùng.
+54 | Giảng viên của môn Xử lý Ngôn ngữ Tự nhiên là Võ Thanh Hùng.
+55 | Giảng viên của môn Xử lý Ngôn ngữ Tự nhiên là Võ Thanh Hùng.
+56 | Tuần 1 học nghiên cứu ngôn ngữ tự nhiên, ứng dụng text-based, ứng dụng dialog-based, đánh giá hệ thống hiểu ngôn ngữ tự nhiên, các mức phân tích ngôn ngữ, biểu diễn và hiểu ngôn ngữ, tổ chức hệ thống NLU.
+57 | Tuần 2 học words, simple noun phrases, verb phrases, simple sentences, adjective phrases, adverbial phrases.
+58 | Tuần 3 học context-free grammar, grammar and sentence structure, top-down parsing, bottom-up chart parsing, top-down chart parsing, probabilistic context-free grammar, dependency grammar, Stanford dependencies.
+59 | Tuần 4 học feature systems, augmented grammars, feature systems for English, lexicon, grammar using feature systems, parsing with features.
+60 | Tuần 5 học augmented transition networks, generalized feature systems, unification grammar.
+61 | Tuần 6 học auxiliary verbs and verb phrases, movement phenomena, handling questions in CFG, relative clauses.
+62 | Tuần 7 học basic probability theory, estimating probabilities, part-of-speech tagging, lexical probabilities, probabilistic context-free grammar.
+63 | Tuần 8 học best-first parsing, simple context-dependent best-first parser.
+64 | Tuần 9 học semantics and logical form, word senses and ambiguity, basic logical form language, encoding ambiguity in logical form, verbs and states, thematic roles, speech acts and embedded sentences.
+65 | Tuần 10 học semantic interpretation and compositionality, grammar and lexicon with semantic interpretation, prepositional phrases and verb phrases, lexicalized semantic interpretation, semantic roles, handling simple questions.
+66 | Tuần 11 học selectional restrictions, semantic filtering, semantic networks, statistical word sense disambiguation.
+67 | Tuần 12 học grammatical relations, semantic grammars, template matching, semantically driven parsing.
+68 | Tuần 13 học knowledge representation, frames, natural language quantification, time and aspectual classes, procedural semantics, question answering.
+69 | Tuần 14 học local discourse context, discourse entities, anaphora, pronouns and centering, definite descriptions, definite reference and sets, ellipsis, surface anaphora.
+70 | Tuần 15 học integrate grammar/parser/semantic interpretation/QA, local discourse context, error analysis, system evaluation, demonstration and final BTL review.
+71 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+72 | Tuần 5 học augmented transition networks, generalized feature systems, unification grammar.
+73 | Tuần 8 học best-first parsing, simple context-dependent best-first parser.
+74 | Tuần 12 học grammatical relations, semantic grammars, template matching, semantically driven parsing.
+75 | Tuần 1 học nghiên cứu ngôn ngữ tự nhiên, ứng dụng text-based, ứng dụng dialog-based, đánh giá hệ thống hiểu ngôn ngữ tự nhiên, các mức phân tích ngôn ngữ, biểu diễn và hiểu ngôn ngữ, tổ chức hệ thống NLU.
+76 | Tuần 15 học integrate grammar/parser/semantic interpretation/QA, local discourse context, error analysis, system evaluation, demonstration and final BTL review.
+77 | Tuần 3 học context-free grammar, grammar and sentence structure, top-down parsing, bottom-up chart parsing, top-down chart parsing, probabilistic context-free grammar, dependency grammar, Stanford dependencies.
+78 | Tuần 15 học integrate grammar/parser/semantic interpretation/QA, local discourse context, error analysis, system evaluation, demonstration and final BTL review.
+79 | Tuần 8 học best-first parsing, simple context-dependent best-first parser.
+80 | Tuần 1 học nghiên cứu ngôn ngữ tự nhiên, ứng dụng text-based, ứng dụng dialog-based, đánh giá hệ thống hiểu ngôn ngữ tự nhiên, các mức phân tích ngôn ngữ, biểu diễn và hiểu ngôn ngữ, tổ chức hệ thống NLU.
+81 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+82 | Tuần 15 học integrate grammar/parser/semantic interpretation/QA, local discourse context, error analysis, system evaluation, demonstration and final BTL review.
+83 | Tuần 3 học context-free grammar, grammar and sentence structure, top-down parsing, bottom-up chart parsing, top-down chart parsing, probabilistic context-free grammar, dependency grammar, Stanford dependencies.
+84 | Tuần 3 học context-free grammar, grammar and sentence structure, top-down parsing, bottom-up chart parsing, top-down chart parsing, probabilistic context-free grammar, dependency grammar, Stanford dependencies.
+85 | Tuần 3 học context-free grammar, grammar and sentence structure, top-down parsing, bottom-up chart parsing, top-down chart parsing, probabilistic context-free grammar, dependency grammar, Stanford dependencies.
+86 | Tuần 3 học context-free grammar, grammar and sentence structure, top-down parsing, bottom-up chart parsing, top-down chart parsing, probabilistic context-free grammar, dependency grammar, Stanford dependencies.
+87 | CH01 được học vào tuần 1.
+88 | CH02 được học vào tuần 2.
+89 | CH03 được học vào tuần 3.
+90 | CH04 được học vào tuần 4, tuần 5.
+91 | CH05 được học vào tuần 6.
+92 | CH06 được học vào tuần 7, tuần 8.
+93 | CH07 được học vào tuần 9.
+94 | CH08 được học vào tuần 10.
+95 | CH09 được học vào tuần 11.
+96 | CH10 được học vào tuần 12.
+97 | CH11 được học vào tuần 13.
+98 | CH12 được học vào tuần 14.
+99 | CH03 được học vào tuần 3.
+100 | Chương 11.
+101 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+102 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+103 | CH03 được học vào tuần 3.
+104 | CH04 được học vào tuần 4, tuần 5.
+105 | CH04 được học vào tuần 4, tuần 5.
+106 | CH01 được học vào tuần 1.
+107 | CFG được trình bày trong Chương 3, Grammar and Parsing.
+108 | PCFG được trình bày trong Chương 3 và tiếp tục được sử dụng trong Chương 6 về các phương pháp thống kê.
+109 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+110 | UNIFICATION được học ở tuần 5.
+111 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+112 | ANAPHORA được học ở tuần 14.
+113 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+114 | ELLIPSIS được học ở tuần 14.
+115 | Chương 12.
+116 | PARSING được học ở tuần 3, tuần 4, tuần 8, tuần 12.
+117 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+118 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+119 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+120 | Chương 10, Other Strategies for Semantic Interpretation.
+121 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+122 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+123 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+124 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+125 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+126 | Chương 10, Other Strategies for Semantic Interpretation.
+127 | Chương 11.
+128 | LEXICON được học ở tuần 4, tuần 10.
+129 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+130 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+131 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+132 | COMPOSITIONALITY được học ở tuần 10.
+133 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+134 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+135 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+136 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+137 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+138 | CFG được trình bày trong Chương 3, Grammar and Parsing.
+139 | PCFG được trình bày trong Chương 3 và tiếp tục được sử dụng trong Chương 6 về các phương pháp thống kê.
+140 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+141 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+142 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+143 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+144 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+145 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+146 | Chương 10, Other Strategies for Semantic Interpretation.
+147 | Chương 10, Other Strategies for Semantic Interpretation.
+148 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+149 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+150 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+151 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+152 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+153 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+154 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+155 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+156 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+157 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+158 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+159 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+160 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+161 | Chương 1 (Introduction to Natural Language Processing): NLP studies computational methods for processing natural language. The course introduces applications, levels of language analysis, representation and understanding, and organization of natural language understanding systems.
+162 | Chương 2 (Linguistic Background - English Syntax): The chapter reviews basic English syntax, including words, noun phrases, verb phrases, simple sentences, adjective phrases and adverbial phrases.
+163 | Chương 3 (Grammar and Parsing): The chapter introduces context-free grammar, sentence structure and parsing methods. It also introduces probabilistic CFG and dependency grammar.
+164 | Chương 4 (Features and Augmented Grammar): The chapter extends formal grammar with feature systems and augmented grammar. It covers lexicon, parsing with features, augmented transition networks, generalized feature systems and unification grammar.
+165 | Chương 5 (Grammar for Natural Language): The chapter focuses on grammar phenomena important for natural language, including auxiliary verbs, movement, questions and relative clauses.
+166 | Chương 6 (Ambiguity Resolution - Statistical Methods): Statistical methods are introduced for resolving ambiguity at sentence level. Topics include probability theory, probability estimation, part-of-speech tagging, lexical probabilities, PCFG and best-first parsing.
+167 | Chương 7 (Semantics and Logical Form): The chapter introduces semantic interpretation and logical forms, including word senses, ambiguity, verbs and states, thematic roles, speech acts and embedded sentences.
+168 | Chương 8 (Linking Syntax and Semantics): The chapter connects syntactic parsing with semantic interpretation. It discusses compositionality, semantic interpretation during parsing, semantic roles, simple questions, feature unification and generation from logical form.
+169 | Chương 9 (Ambiguity Resolution): The chapter covers knowledge-based and statistical methods for semantic ambiguity resolution.
+170 | Chương 10 (Other Strategies for Semantic Interpretation): Alternative approaches to semantic interpretation include grammatical relations, semantic grammars, template matching and semantically driven parsing.
+171 | Chương 11 (Knowledge Representation and Reasoning): The chapter introduces knowledge representation and reasoning and applies them to simple natural-language question answering.
+172 | Chương 12 (Discourse Context and Reference): The chapter introduces local discourse context and discourse entities, with emphasis on reference expressions, pronouns, centering, definite descriptions, sets, ellipsis and surface anaphora.
+173 | Chương 3 (Grammar and Parsing): The chapter introduces context-free grammar, sentence structure and parsing methods. It also introduces probabilistic CFG and dependency grammar.
+174 | Chương 4 (Features and Augmented Grammar): The chapter extends formal grammar with feature systems and augmented grammar. It covers lexicon, parsing with features, augmented transition networks, generalized feature systems and unification grammar.
+175 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+176 | Chương 3 (Grammar and Parsing): The chapter introduces context-free grammar, sentence structure and parsing methods. It also introduces probabilistic CFG and dependency grammar.
+177 | Chương 8 (Linking Syntax and Semantics): The chapter connects syntactic parsing with semantic interpretation. It discusses compositionality, semantic interpretation during parsing, semantic roles, simple questions, feature unification and generation from logical form.
+178 | Chương 12 (Discourse Context and Reference): The chapter introduces local discourse context and discourse entities, with emphasis on reference expressions, pronouns, centering, definite descriptions, sets, ellipsis and surface anaphora.
+179 | Chương 5 (Grammar for Natural Language): The chapter focuses on grammar phenomena important for natural language, including auxiliary verbs, movement, questions and relative clauses.
+180 | Chương 9 (Ambiguity Resolution): The chapter covers knowledge-based and statistical methods for semantic ambiguity resolution.
+181 | Chương 3 (Grammar and Parsing): The chapter introduces context-free grammar, sentence structure and parsing methods. It also introduces probabilistic CFG and dependency grammar.
+182 | Chương 11 (Knowledge Representation and Reasoning): The chapter introduces knowledge representation and reasoning and applies them to simple natural-language question answering.
+183 | Chương 9 (Ambiguity Resolution): The chapter covers knowledge-based and statistical methods for semantic ambiguity resolution.
+184 | Chương 12 (Discourse Context and Reference): The chapter introduces local discourse context and discourse entities, with emphasis on reference expressions, pronouns, centering, definite descriptions, sets, ellipsis and surface anaphora.
+185 | Chương 11 (Knowledge Representation and Reasoning): The chapter introduces knowledge representation and reasoning and applies them to simple natural-language question answering.
+186 | Chương 11 (Knowledge Representation and Reasoning): The chapter introduces knowledge representation and reasoning and applies them to simple natural-language question answering.
+187 | Chương 3 (Grammar and Parsing): The chapter introduces context-free grammar, sentence structure and parsing methods. It also introduces probabilistic CFG and dependency grammar.
+188 | Chương 6 (Ambiguity Resolution - Statistical Methods): Statistical methods are introduced for resolving ambiguity at sentence level. Topics include probability theory, probability estimation, part-of-speech tagging, lexical probabilities, PCFG and best-first parsing.
+189 | Chương 4 (Features and Augmented Grammar): The chapter extends formal grammar with feature systems and augmented grammar. It covers lexicon, parsing with features, augmented transition networks, generalized feature systems and unification grammar.
+190 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+191 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+192 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+193 | Chương 3 (Grammar and Parsing): The chapter introduces context-free grammar, sentence structure and parsing methods. It also introduces probabilistic CFG and dependency grammar.
+194 | Chương 3 (Grammar and Parsing): The chapter introduces context-free grammar, sentence structure and parsing methods. It also introduces probabilistic CFG and dependency grammar.
+195 | Tuần 5 học augmented transition networks, generalized feature systems, unification grammar.
+196 | Tuần 10 học semantic interpretation and compositionality, grammar and lexicon with semantic interpretation, prepositional phrases and verb phrases, lexicalized semantic interpretation, semantic roles, handling simple questions.
+197 | Tuần 3 học context-free grammar, grammar and sentence structure, top-down parsing, bottom-up chart parsing, top-down chart parsing, probabilistic context-free grammar, dependency grammar, Stanford dependencies.
+198 | Tuần 3 học context-free grammar, grammar and sentence structure, top-down parsing, bottom-up chart parsing, top-down chart parsing, probabilistic context-free grammar, dependency grammar, Stanford dependencies.
+199 | Tuần 3 học context-free grammar, grammar and sentence structure, top-down parsing, bottom-up chart parsing, top-down chart parsing, probabilistic context-free grammar, dependency grammar, Stanford dependencies.
+200 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+201 | Chương 3 (Grammar and Parsing): The chapter introduces context-free grammar, sentence structure and parsing methods. It also introduces probabilistic CFG and dependency grammar.
+202 | Chương 12 (Discourse Context and Reference): The chapter introduces local discourse context and discourse entities, with emphasis on reference expressions, pronouns, centering, definite descriptions, sets, ellipsis and surface anaphora.
+203 | Chương 12 (Discourse Context and Reference): The chapter introduces local discourse context and discourse entities, with emphasis on reference expressions, pronouns, centering, definite descriptions, sets, ellipsis and surface anaphora.
+204 | Chương 3 (Grammar and Parsing): The chapter introduces context-free grammar, sentence structure and parsing methods. It also introduces probabilistic CFG and dependency grammar.
+205 | Chương 10 (Other Strategies for Semantic Interpretation): Alternative approaches to semantic interpretation include grammatical relations, semantic grammars, template matching and semantically driven parsing.
+206 | Chương 10 (Other Strategies for Semantic Interpretation): Alternative approaches to semantic interpretation include grammatical relations, semantic grammars, template matching and semantically driven parsing.
+207 | Chương 11 (Knowledge Representation and Reasoning): The chapter introduces knowledge representation and reasoning and applies them to simple natural-language question answering.
+208 | Chương 11 (Knowledge Representation and Reasoning): The chapter introduces knowledge representation and reasoning and applies them to simple natural-language question answering.
+209 | CH03 (Grammar and Parsing): The chapter introduces context-free grammar, sentence structure and parsing methods. It also introduces probabilistic CFG and dependency grammar.
+210 | CH03 (Grammar and Parsing): The chapter introduces context-free grammar, sentence structure and parsing methods. It also introduces probabilistic CFG and dependency grammar.
+211 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+212 | CH04 (Features and Augmented Grammar): The chapter extends formal grammar with feature systems and augmented grammar. It covers lexicon, parsing with features, augmented transition networks, generalized feature systems and unification grammar.
+213 | Chương 4.
+214 | CH04 (Features and Augmented Grammar): The chapter extends formal grammar with feature systems and augmented grammar. It covers lexicon, parsing with features, augmented transition networks, generalized feature systems and unification grammar.
+215 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+216 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+217 | Chương 11.
+218 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+219 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+220 | CH09 (Ambiguity Resolution): The chapter covers knowledge-based and statistical methods for semantic ambiguity resolution.
+221 | Chương 10, Other Strategies for Semantic Interpretation.
+222 | Chương 11.
+223 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+224 | Chương 12.
+225 | CH12 (Discourse Context and Reference): The chapter introduces local discourse context and discourse entities, with emphasis on reference expressions, pronouns, centering, definite descriptions, sets, ellipsis and surface anaphora.
+226 | CH12 (Discourse Context and Reference): The chapter introduces local discourse context and discourse entities, with emphasis on reference expressions, pronouns, centering, definite descriptions, sets, ellipsis and surface anaphora.
+227 | CH12 (Discourse Context and Reference): The chapter introduces local discourse context and discourse entities, with emphasis on reference expressions, pronouns, centering, definite descriptions, sets, ellipsis and surface anaphora.
+228 | CH03 (Grammar and Parsing): The chapter introduces context-free grammar, sentence structure and parsing methods. It also introduces probabilistic CFG and dependency grammar.
+229 | Chương 11.
+230 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+231 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+232 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+233 | Chương 11.
+234 | CH11 (Knowledge Representation and Reasoning): The chapter introduces knowledge representation and reasoning and applies them to simple natural-language question answering.
+235 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+236 | CH12 (Discourse Context and Reference): The chapter introduces local discourse context and discourse entities, with emphasis on reference expressions, pronouns, centering, definite descriptions, sets, ellipsis and surface anaphora.
+237 | Chương 10, Other Strategies for Semantic Interpretation.
+238 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+239 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+240 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+241 | Chương 11.
+242 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+243 | CH04 (Features and Augmented Grammar): The chapter extends formal grammar with feature systems and augmented grammar. It covers lexicon, parsing with features, augmented transition networks, generalized feature systems and unification grammar.
+244 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+245 | CH04 (Features and Augmented Grammar): The chapter extends formal grammar with feature systems and augmented grammar. It covers lexicon, parsing with features, augmented transition networks, generalized feature systems and unification grammar.
+246 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+247 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+248 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+249 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+250 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+251 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+252 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+253 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+254 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+255 | CH12 (Discourse Context and Reference): The chapter introduces local discourse context and discourse entities, with emphasis on reference expressions, pronouns, centering, definite descriptions, sets, ellipsis and surface anaphora.
+256 | CH12 (Discourse Context and Reference): The chapter introduces local discourse context and discourse entities, with emphasis on reference expressions, pronouns, centering, definite descriptions, sets, ellipsis and surface anaphora.
+257 | CH12 (Discourse Context and Reference): The chapter introduces local discourse context and discourse entities, with emphasis on reference expressions, pronouns, centering, definite descriptions, sets, ellipsis and surface anaphora.
+258 | CH12 (Discourse Context and Reference): The chapter introduces local discourse context and discourse entities, with emphasis on reference expressions, pronouns, centering, definite descriptions, sets, ellipsis and surface anaphora.
+259 | CH03 (Grammar and Parsing): The chapter introduces context-free grammar, sentence structure and parsing methods. It also introduces probabilistic CFG and dependency grammar.
+260 | CH03 (Grammar and Parsing): The chapter introduces context-free grammar, sentence structure and parsing methods. It also introduces probabilistic CFG and dependency grammar.
+261 | CH09 (Ambiguity Resolution): The chapter covers knowledge-based and statistical methods for semantic ambiguity resolution.
+262 | CH03 (Grammar and Parsing): The chapter introduces context-free grammar, sentence structure and parsing methods. It also introduces probabilistic CFG and dependency grammar.
+263 | CH04 (Features and Augmented Grammar): The chapter extends formal grammar with feature systems and augmented grammar. It covers lexicon, parsing with features, augmented transition networks, generalized feature systems and unification grammar.
+264 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+265 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+266 | CH08 (Linking Syntax and Semantics): The chapter connects syntactic parsing with semantic interpretation. It discusses compositionality, semantic interpretation during parsing, semantic roles, simple questions, feature unification and generation from logical form.
+267 | Chương 11.
+268 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+269 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+270 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+271 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+272 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+273 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+274 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+275 | CFG được trình bày trong Chương 3, Grammar and Parsing.
+276 | Chương 11.
+277 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+278 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+279 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+280 | CH01 (Introduction to Natural Language Processing): NLP studies computational methods for processing natural language. The course introduces applications, levels of language analysis, representation and understanding, and organization of natural language understanding systems.
+281 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+282 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+283 | CH03 (Grammar and Parsing): The chapter introduces context-free grammar, sentence structure and parsing methods. It also introduces probabilistic CFG and dependency grammar.
+284 | CH09 (Ambiguity Resolution): The chapter covers knowledge-based and statistical methods for semantic ambiguity resolution.
+285 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+286 | CH12 (Discourse Context and Reference): The chapter introduces local discourse context and discourse entities, with emphasis on reference expressions, pronouns, centering, definite descriptions, sets, ellipsis and surface anaphora.
+287 | CH02 (Linguistic Background - English Syntax): The chapter reviews basic English syntax, including words, noun phrases, verb phrases, simple sentences, adjective phrases and adverbial phrases.
+288 | Chương 11.
+289 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+290 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+291 | Chương 4.
+292 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+293 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+294 | Chương 11.
+295 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+296 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+297 | Chương 11.
+298 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+299 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+300 | Chương 11.
+301 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+302 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+303 | Chương 11.
+304 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+305 | Chương 10, Other Strategies for Semantic Interpretation.
+306 | Chương 10, Other Strategies for Semantic Interpretation.
+307 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+308 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+309 | Chương 11.
+310 | Chương 10, Other Strategies for Semantic Interpretation.
+311 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+312 | Chương 4.
+313 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+314 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+315 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+316 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+317 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+318 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+319 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+320 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+321 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+322 | LO1.1: Hiểu cấu trúc hệ thống NLP, ứng dụng và cách đánh giá hệ thống hiểu ngôn ngữ tự nhiên.
+323 | LO2.1: Kiến thức cơ sở về cú pháp tiếng Anh.
+324 | LO2.2: Kiến thức cơ bản về văn phạm và phân tích cú pháp.
+325 | LO2.3: Kiến thức về nét và văn phạm gia tố.
+326 | LO2.4: Kiến thức tạo văn phạm cho ngôn ngữ tự nhiên và phương pháp parsing.
+327 | LO2.5: Kiến thức xác suất để giải quyết nhập nhằng từ ở mức câu.
+328 | LO3.1: Kiến thức về ngôn ngữ dạng luận lý và tạo dạng luận lý đơn giản.
+329 | LO3.2: Tạo tự động diễn dịch ngữ nghĩa cho câu tự nhiên.
+330 | LO3.3: Giải quyết nhập nhằng ngữ nghĩa dựa trên tri thức và thống kê.
+331 | LO3.4: Diễn dịch ngữ nghĩa bằng quan hệ văn phạm và văn phạm ngữ nghĩa.
+332 | LO4.1: Biểu diễn tri thức, suy diễn và xây dựng hệ thống hỏi đáp đơn giản.
+333 | LO4.2: Ngữ cảnh diễn ngôn cục bộ và sự tham chiếu.
+334 | LO4.2: Ngữ cảnh diễn ngôn cục bộ và sự tham chiếu.
+335 | LO2.5: Kiến thức xác suất để giải quyết nhập nhằng từ ở mức câu.
+336 | LO1: Tổng quan về tổ chức hệ thống NLP và các ứng dụng.
+337 | LO2: Xử lý cú pháp; xây dựng văn phạm đơn giản và phân tích cú pháp.
+338 | LO3: Diễn dịch ngữ nghĩa; tạo dạng luận lý và giải quyết nhập nhằng.
+339 | LO4: Ngữ nghĩa và tri thức thế giới; xây dựng cơ sở tri thức và hệ thống hỏi đáp đơn giản.
+340 | LO1: Tổng quan về tổ chức hệ thống NLP và các ứng dụng.; LO2: Xử lý cú pháp; xây dựng văn phạm đơn giản và phân tích cú pháp.; LO3: Diễn dịch ngữ nghĩa; tạo dạng luận lý và giải quyết nhập nhằng.; LO4: Ngữ nghĩa và tri thức thế giới; xây dựng cơ sở tri thức và hệ thống hỏi đáp đơn giản.; LO1.1: Hiểu cấu trúc hệ thống NLP, ứng dụng và cách đánh giá hệ thống hiểu ngôn ngữ tự nhiên.; LO2.1: Kiến thức cơ sở về cú pháp tiếng Anh.; LO2.2: Kiến thức cơ bản về văn phạm và phân tích cú pháp.; LO2.3: Kiến thức về nét và văn phạm gia tố.; LO2.4: Kiến thức tạo văn phạm cho ngôn ngữ tự nhiên và phương pháp parsing.; LO2.5: Kiến thức xác suất để giải quyết nhập nhằng từ ở mức câu.; LO3.1: Kiến thức về ngôn ngữ dạng luận lý và tạo dạng luận lý đơn giản.; LO3.2: Tạo tự động diễn dịch ngữ nghĩa cho câu tự nhiên.; LO3.3: Giải quyết nhập nhằng ngữ nghĩa dựa trên tri thức và thống kê.; LO3.4: Diễn dịch ngữ nghĩa bằng quan hệ văn phạm và văn phạm ngữ nghĩa.; LO4.1: Biểu diễn tri thức, suy diễn và xây dựng hệ thống hỏi đáp đơn giản.; LO4.2: Ngữ cảnh diễn ngôn cục bộ và sự tham chiếu.
+341 | LO1: Tổng quan về tổ chức hệ thống NLP và các ứng dụng.; LO2: Xử lý cú pháp; xây dựng văn phạm đơn giản và phân tích cú pháp.; LO3: Diễn dịch ngữ nghĩa; tạo dạng luận lý và giải quyết nhập nhằng.; LO4: Ngữ nghĩa và tri thức thế giới; xây dựng cơ sở tri thức và hệ thống hỏi đáp đơn giản.; LO1.1: Hiểu cấu trúc hệ thống NLP, ứng dụng và cách đánh giá hệ thống hiểu ngôn ngữ tự nhiên.; LO2.1: Kiến thức cơ sở về cú pháp tiếng Anh.; LO2.2: Kiến thức cơ bản về văn phạm và phân tích cú pháp.; LO2.3: Kiến thức về nét và văn phạm gia tố.; LO2.4: Kiến thức tạo văn phạm cho ngôn ngữ tự nhiên và phương pháp parsing.; LO2.5: Kiến thức xác suất để giải quyết nhập nhằng từ ở mức câu.; LO3.1: Kiến thức về ngôn ngữ dạng luận lý và tạo dạng luận lý đơn giản.; LO3.2: Tạo tự động diễn dịch ngữ nghĩa cho câu tự nhiên.; LO3.3: Giải quyết nhập nhằng ngữ nghĩa dựa trên tri thức và thống kê.; LO3.4: Diễn dịch ngữ nghĩa bằng quan hệ văn phạm và văn phạm ngữ nghĩa.; LO4.1: Biểu diễn tri thức, suy diễn và xây dựng hệ thống hỏi đáp đơn giản.; LO4.2: Ngữ cảnh diễn ngôn cục bộ và sự tham chiếu.
+342 | LO2.5: Kiến thức xác suất để giải quyết nhập nhằng từ ở mức câu.
+343 | LO2.5: Kiến thức xác suất để giải quyết nhập nhằng từ ở mức câu.
+344 | LO2.5: Kiến thức xác suất để giải quyết nhập nhằng từ ở mức câu.
+345 | LO1.1: Hiểu cấu trúc hệ thống NLP, ứng dụng và cách đánh giá hệ thống hiểu ngôn ngữ tự nhiên.
+346 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+347 | LO2: Xử lý cú pháp; xây dựng văn phạm đơn giản và phân tích cú pháp.
+348 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+349 | Bài tập lớn yêu cầu Xây dựng hệ thống xử lý câu hỏi tự nhiên trong miền thông tin của một môn học. Hệ thống phải thể hiện pipeline NLP từ parsing đến semantic interpretation và question answering.
+350 | Bài tập lớn yêu cầu Xây dựng hệ thống xử lý câu hỏi tự nhiên trong miền thông tin của một môn học. Hệ thống phải thể hiện pipeline NLP từ parsing đến semantic interpretation và question answering.
+351 | Bài tập lớn yêu cầu Xây dựng hệ thống xử lý câu hỏi tự nhiên trong miền thông tin của một môn học. Hệ thống phải thể hiện pipeline NLP từ parsing đến semantic interpretation và question answering.
+352 | Bài tập lớn yêu cầu Xây dựng hệ thống xử lý câu hỏi tự nhiên trong miền thông tin của một môn học. Hệ thống phải thể hiện pipeline NLP từ parsing đến semantic interpretation và question answering.
+353 | Bài tập lớn yêu cầu Xây dựng hệ thống xử lý câu hỏi tự nhiên trong miền thông tin của một môn học. Hệ thống phải thể hiện pipeline NLP từ parsing đến semantic interpretation và question answering.
+354 | Bài tập lớn yêu cầu Xây dựng hệ thống xử lý câu hỏi tự nhiên trong miền thông tin của một môn học. Hệ thống phải thể hiện pipeline NLP từ parsing đến semantic interpretation và question answering.
+355 | Bài tập lớn yêu cầu Xây dựng hệ thống xử lý câu hỏi tự nhiên trong miền thông tin của một môn học. Hệ thống phải thể hiện pipeline NLP từ parsing đến semantic interpretation và question answering.
+356 | Bài tập lớn yêu cầu Xây dựng hệ thống xử lý câu hỏi tự nhiên trong miền thông tin của một môn học. Hệ thống phải thể hiện pipeline NLP từ parsing đến semantic interpretation và question answering.
+357 | Bài tập lớn yêu cầu Xây dựng hệ thống xử lý câu hỏi tự nhiên trong miền thông tin của một môn học. Hệ thống phải thể hiện pipeline NLP từ parsing đến semantic interpretation và question answering.
+358 | Bài tập lớn yêu cầu Xây dựng hệ thống xử lý câu hỏi tự nhiên trong miền thông tin của một môn học. Hệ thống phải thể hiện pipeline NLP từ parsing đến semantic interpretation và question answering.
+359 | Phần I - Grammar and Parser: xây dựng grammar cho miền Course Assistant; sinh câu hợp lệ từ grammar; xây dựng parser; xuất parse tree; xử lý câu không hợp lệ.
+360 | Phần II - Semantic Interpretation and QA: .
+361 | Phần III - Local Discourse Context: .
+362 | Phần IV - Evaluation: tạo test set; đo accuracy hoặc metric phù hợp; phân tích lỗi; trình bày các trường hợp hệ thống không trả lời đúng.
+363 | Phần I - Grammar and Parser: xây dựng grammar cho miền Course Assistant; sinh câu hợp lệ từ grammar; xây dựng parser; xuất parse tree; xử lý câu không hợp lệ.
+364 | Phần II - Semantic Interpretation and QA: .
+365 | Phần IV - Evaluation: tạo test set; đo accuracy hoặc metric phù hợp; phân tích lỗi; trình bày các trường hợp hệ thống không trả lời đúng.
+366 | Phần III - Local Discourse Context: .
+367 | Phần I - Grammar and Parser: xây dựng grammar cho miền Course Assistant; sinh câu hợp lệ từ grammar; xây dựng parser; xuất parse tree; xử lý câu không hợp lệ.
+368 | Phần II - Semantic Interpretation and QA: .
+369 | Phần I - Grammar and Parser: xây dựng grammar cho miền Course Assistant; sinh câu hợp lệ từ grammar; xây dựng parser; xuất parse tree; xử lý câu không hợp lệ.
+370 | Phần II - Semantic Interpretation and QA: .
+371 | Bài tập lớn yêu cầu Xây dựng hệ thống xử lý câu hỏi tự nhiên trong miền thông tin của một môn học. Hệ thống phải thể hiện pipeline NLP từ parsing đến semantic interpretation và question answering.
+372 | Bài tập lớn yêu cầu Xây dựng hệ thống xử lý câu hỏi tự nhiên trong miền thông tin của một môn học. Hệ thống phải thể hiện pipeline NLP từ parsing đến semantic interpretation và question answering.
+373 | Bài tập lớn yêu cầu Xây dựng hệ thống xử lý câu hỏi tự nhiên trong miền thông tin của một môn học. Hệ thống phải thể hiện pipeline NLP từ parsing đến semantic interpretation và question answering.
+374 | Bài tập lớn yêu cầu Xây dựng hệ thống xử lý câu hỏi tự nhiên trong miền thông tin của một môn học. Hệ thống phải thể hiện pipeline NLP từ parsing đến semantic interpretation và question answering.
+375 | Bài tập lớn yêu cầu Xây dựng hệ thống xử lý câu hỏi tự nhiên trong miền thông tin của một môn học. Hệ thống phải thể hiện pipeline NLP từ parsing đến semantic interpretation và question answering.
+376 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+377 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+378 | Phần IV - Evaluation: tạo test set; đo accuracy hoặc metric phù hợp; phân tích lỗi; trình bày các trường hợp hệ thống không trả lời đúng.
+379 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+380 | Phần II - Semantic Interpretation and QA: .
+381 | Phần II - Semantic Interpretation and QA: .
+382 | Phần IV - Evaluation: tạo test set; đo accuracy hoặc metric phù hợp; phân tích lỗi; trình bày các trường hợp hệ thống không trả lời đúng.
+383 | Phần III - Local Discourse Context: .
+384 | Sinh viên phải khai báo việc sử dụng AI trong báo cáo, nghiên cứu và quá trình thực hiện theo quy định của môn học.
+385 | Có thể sử dụng như một phần mở rộng nếu được cho phép, nhưng LLM/RAG không thay thế các yêu cầu NLP cốt lõi.
+386 | Có thể sử dụng như một phần mở rộng nếu được cho phép, nhưng LLM/RAG không thay thế các yêu cầu NLP cốt lõi.
+387 | Bài tập lớn yêu cầu Xây dựng hệ thống xử lý câu hỏi tự nhiên trong miền thông tin của một môn học. Hệ thống phải thể hiện pipeline NLP từ parsing đến semantic interpretation và question answering.
+388 | Bài tập lớn yêu cầu Xây dựng hệ thống xử lý câu hỏi tự nhiên trong miền thông tin của một môn học. Hệ thống phải thể hiện pipeline NLP từ parsing đến semantic interpretation và question answering.
+389 | Phần I - Grammar and Parser: xây dựng grammar cho miền Course Assistant; sinh câu hợp lệ từ grammar; xây dựng parser; xuất parse tree; xử lý câu không hợp lệ.
+390 | Bài tập lớn yêu cầu Xây dựng hệ thống xử lý câu hỏi tự nhiên trong miền thông tin của một môn học. Hệ thống phải thể hiện pipeline NLP từ parsing đến semantic interpretation và question answering.
+391 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+392 | Bài tập lớn yêu cầu Xây dựng hệ thống xử lý câu hỏi tự nhiên trong miền thông tin của một môn học. Hệ thống phải thể hiện pipeline NLP từ parsing đến semantic interpretation và question answering.
+393 | Bài tập lớn yêu cầu Xây dựng hệ thống xử lý câu hỏi tự nhiên trong miền thông tin của một môn học. Hệ thống phải thể hiện pipeline NLP từ parsing đến semantic interpretation và question answering.
+394 | Bài tập lớn yêu cầu Xây dựng hệ thống xử lý câu hỏi tự nhiên trong miền thông tin của một môn học. Hệ thống phải thể hiện pipeline NLP từ parsing đến semantic interpretation và question answering.
+395 | Bài tập lớn chiếm 15 percent điểm.
+396 | Bài tập lớn yêu cầu Xây dựng hệ thống xử lý câu hỏi tự nhiên trong miền thông tin của một môn học. Hệ thống phải thể hiện pipeline NLP từ parsing đến semantic interpretation và question answering.
+397 | Bài tập lớn yêu cầu Xây dựng hệ thống xử lý câu hỏi tự nhiên trong miền thông tin của một môn học. Hệ thống phải thể hiện pipeline NLP từ parsing đến semantic interpretation và question answering.
+398 | Phần I - Grammar and Parser: xây dựng grammar cho miền Course Assistant; sinh câu hợp lệ từ grammar; xây dựng parser; xuất parse tree; xử lý câu không hợp lệ.
+399 | Phần II - Semantic Interpretation and QA: .
+400 | Phần II - Semantic Interpretation and QA: .
+401 | Phần IV - Evaluation: tạo test set; đo accuracy hoặc metric phù hợp; phân tích lỗi; trình bày các trường hợp hệ thống không trả lời đúng.
+402 | Phần III - Local Discourse Context: .
+403 | Phần II - Semantic Interpretation and QA: .
+404 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+405 | Chương 12.
+406 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+407 | Bài tập lớn yêu cầu Xây dựng hệ thống xử lý câu hỏi tự nhiên trong miền thông tin của một môn học. Hệ thống phải thể hiện pipeline NLP từ parsing đến semantic interpretation và question answering.
+408 | Bài tập lớn yêu cầu Xây dựng hệ thống xử lý câu hỏi tự nhiên trong miền thông tin của một môn học. Hệ thống phải thể hiện pipeline NLP từ parsing đến semantic interpretation và question answering.
+409 | Phần I - Grammar and Parser: xây dựng grammar cho miền Course Assistant; sinh câu hợp lệ từ grammar; xây dựng parser; xuất parse tree; xử lý câu không hợp lệ.
+410 | Phần I - Grammar and Parser: xây dựng grammar cho miền Course Assistant; sinh câu hợp lệ từ grammar; xây dựng parser; xuất parse tree; xử lý câu không hợp lệ.
+411 | Phần I - Grammar and Parser: xây dựng grammar cho miền Course Assistant; sinh câu hợp lệ từ grammar; xây dựng parser; xuất parse tree; xử lý câu không hợp lệ.
+412 | Deadline bài tập lớn là 21/11/2026.
+413 | Deadline bài tập lớn là 21/11/2026.
+414 | Deadline bài tập lớn là 21/11/2026.
+415 | Deadline bài tập lớn là 21/11/2026.
+416 | Deadline bài tập lớn là 21/11/2026.
+417 | Deadline bài tập lớn là 21/11/2026.
+418 | Deadline bài tập lớn là 21/11/2026.
+419 | Deadline bài tập lớn là 21/11/2026.
+420 | Deadline bài tập lớn là 21/11/2026.
+421 | Deadline bài tập lớn là 21/11/2026.
+422 | Deadline bài tập lớn là 21/11/2026.
+423 | Deadline bài tập lớn là 21/11/2026.
+424 | Deadline bài tập lớn là 21/11/2026.
+425 | Deadline bài tập lớn là 21/11/2026.
+426 | Deadline bài tập lớn là 21/11/2026.
+427 | Deadline bài tập lớn là 21/11/2026.
+428 | Theo đề cương, final có thời lượng 90 phút.
+429 | Tài liệu phù hợp: Foundation of Statistical Natural Language Processing.
+430 | Tài liệu phù hợp: Natural Language Processing with Python.
+431 | L.O.4.2 liên quan đến ngữ cảnh diễn ngôn cục bộ và sự tham chiếu.
+432 | L.O.3.3 liên quan đến giải quyết nhập nhằng ngữ nghĩa dựa trên cơ sở tri thức và thống kê.
+433 | L.O.4.2 liên quan đến ngữ cảnh diễn ngôn cục bộ và sự tham chiếu.
+434 | L.O.4.2 liên quan đến ngữ cảnh diễn ngôn cục bộ và sự tham chiếu.
+435 | L.O.4.2 liên quan đến ngữ cảnh diễn ngôn cục bộ và sự tham chiếu.
+436 | Tài liệu phù hợp: Foundation of Statistical Natural Language Processing; Introduction to Natural Language Processing.
+437 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+438 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+439 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+440 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+441 | Tài liệu phù hợp: Lecture Slides from the Stanford Coursera course by Dan Jurafsky and Christopher Manning.
+442 | Tài liệu phù hợp: Introduction to Natural Language Processing.
+443 | Tài liệu phù hợp: Xử lý ngôn ngữ tự nhiên.
+444 | Tài liệu phù hợp: Foundation of Statistical Natural Language Processing; Introduction to Natural Language Processing.
+445 | Tài liệu phù hợp: Natural Language Processing with Python.
+446 | Tài liệu phù hợp: Speech and Language Processing; Foundation of Statistical Natural Language Processing.
+447 | Tài liệu phù hợp: An Introduction to Machine Translation; Introduction to Natural Language Processing.
+448 | Tài liệu phù hợp: Natural Language Understanding and World Knowledge.
+449 | Tài liệu phù hợp: Introduction to Natural Language Processing.
+450 | Tài liệu phù hợp: Xử lý ngôn ngữ tự nhiên; Speech and Language Processing; Foundation of Statistical Natural Language Processing.
+451 | Tài liệu phù hợp: An Introduction to Machine Translation; Xử lý ngôn ngữ tự nhiên; Introduction to Natural Language Processing.
+452 | Tài liệu phù hợp: Natural Language Understanding and World Knowledge.
+453 | Tài liệu phù hợp: Foundation of Statistical Natural Language Processing; Introduction to Natural Language Processing.
+454 | Tài liệu phù hợp: Xử lý ngôn ngữ tự nhiên.
+455 | Tài liệu phù hợp: Introduction to Natural Language Processing; Xử lý ngôn ngữ tự nhiên.
+456 | Tài liệu phù hợp: Xử lý ngôn ngữ tự nhiên.
+457 | Tài liệu phù hợp: Xử lý ngôn ngữ tự nhiên; Speech and Language Processing; Foundation of Statistical Natural Language Processing.
+458 | Tài liệu phù hợp: Natural Language Processing with Python.
+459 | Tài liệu phù hợp: Speech and Language Processing; Foundation of Statistical Natural Language Processing; Natural Language Processing with Python.
+460 | Tài liệu phù hợp: An Introduction to Machine Translation; Introduction to Natural Language Processing.
+461 | Tài liệu phù hợp: Speech and Language Processing; Lecture Slides from the Stanford Coursera course by Dan Jurafsky and Christopher Manning.
+462 | Tài liệu phù hợp: Foundation of Statistical Natural Language Processing; Lecture Slides from the Stanford Coursera course by Dan Jurafsky and Christopher Manning.
+463 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+464 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+465 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+466 | Tài liệu phù hợp: Xử lý ngôn ngữ tự nhiên; Speech and Language Processing; Introduction to Natural Language Processing.
+467 | Tài liệu phù hợp: Foundation of Statistical Natural Language Processing; Introduction to Natural Language Processing.
+468 | Tài liệu phù hợp: Introduction to Natural Language Processing.
+469 | Tài liệu phù hợp: Natural Language Processing with Python.
+470 | Tài liệu phù hợp: Lecture Slides from the Stanford Coursera course by Dan Jurafsky and Christopher Manning; Xử lý ngôn ngữ tự nhiên.
+471 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+472 | Tài liệu phù hợp: Speech and Language Processing; Xử lý ngôn ngữ tự nhiên.
+473 | Tài liệu phù hợp: Speech and Language Processing.
+474 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+475 | Tài liệu phù hợp: Speech and Language Processing.
+476 | Tài liệu phù hợp: Foundation of Statistical Natural Language Processing.
+477 | Tài liệu phù hợp: Natural Language Processing with Python.
+478 | Tài liệu phù hợp: An Introduction to Machine Translation.
+479 | Tài liệu phù hợp: Natural Language Processing with Python.
+480 | Tài liệu phù hợp: Lecture Slides from the Stanford Coursera course by Dan Jurafsky and Christopher Manning; Foundation of Statistical Natural Language Processing.
+481 | Tài liệu phù hợp: Xử lý ngôn ngữ tự nhiên; Introduction to Natural Language Processing.
+482 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+483 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+484 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+485 | Tài liệu phù hợp: Foundation of Statistical Natural Language Processing; Introduction to Natural Language Processing.
+486 | Tài liệu phù hợp: Speech and Language Processing.
+487 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+488 | Tài liệu phù hợp: Xử lý ngôn ngữ tự nhiên; An Introduction to Machine Translation.
+489 | Tài liệu phù hợp: Foundation of Statistical Natural Language Processing.
+490 | Tài liệu phù hợp: Foundation of Statistical Natural Language Processing.
+491 | Tài liệu phù hợp: Natural Language Processing with Python.
+492 | Tài liệu phù hợp: Natural Language Processing with Python.
+493 | Sinh viên được khuyến khích tham dự đầy đủ các buổi học và thực hiện các bài tập được giao.
+494 | Sinh viên được khuyến khích tham dự đầy đủ các buổi học và thực hiện các bài tập được giao.
+495 | Sinh viên được khuyến khích tham dự đầy đủ các buổi học và thực hiện các bài tập được giao.
+496 | Sinh viên phải tuân thủ nguyên tắc liêm chính học thuật và code of ethics.
+497 | Sinh viên phải tuân thủ nguyên tắc liêm chính học thuật và code of ethics.
+498 | Sinh viên phải khai báo việc sử dụng AI trong báo cáo, nghiên cứu và quá trình thực hiện theo quy định của môn học.
+499 | Sinh viên phải khai báo việc sử dụng AI trong báo cáo, nghiên cứu và quá trình thực hiện theo quy định của môn học.
+500 | Sinh viên phải khai báo việc sử dụng AI trong báo cáo, nghiên cứu và quá trình thực hiện theo quy định của môn học.
+501 | Sinh viên phải khai báo việc sử dụng AI trong báo cáo, nghiên cứu và quá trình thực hiện theo quy định của môn học.
+502 | Sinh viên phải hiểu và có khả năng giải thích mã nguồn do nhóm sử dụng.
+503 | Sinh viên phải hiểu và có khả năng giải thích mã nguồn do nhóm sử dụng.
+504 | Không được sao chép hoặc chia sẻ bài làm giữa các nhóm.
+505 | Không được sao chép hoặc chia sẻ bài làm giữa các nhóm.
+506 | Được phép sử dụng thư viện công khai nếu tuân thủ yêu cầu của bài tập.
+507 | Được phép sử dụng thư viện công khai nếu tuân thủ yêu cầu của bài tập.
+508 | LLM/RAG nếu được sử dụng chỉ nên đóng vai trò mở rộng. Sinh viên phải mô tả rõ mô hình, dữ liệu, retrieval và cách đánh giá.
+509 | LLM/RAG nếu được sử dụng chỉ nên đóng vai trò mở rộng. Sinh viên phải mô tả rõ mô hình, dữ liệu, retrieval và cách đánh giá.
+510 | LLM/RAG nếu được sử dụng chỉ nên đóng vai trò mở rộng. Sinh viên phải mô tả rõ mô hình, dữ liệu, retrieval và cách đánh giá.
+511 | Hệ thống Course Assistant chỉ chịu trách nhiệm trong phạm vi dữ liệu môn học. Với câu hỏi ngoài phạm vi hoặc không có dữ liệu, hệ thống phải thông báo rằng không tìm thấy thông tin thay vì tự tạo thông tin.
+512 | Hệ thống Course Assistant chỉ chịu trách nhiệm trong phạm vi dữ liệu môn học. Với câu hỏi ngoài phạm vi hoặc không có dữ liệu, hệ thống phải thông báo rằng không tìm thấy thông tin thay vì tự tạo thông tin.
+513 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+514 | LLM/RAG nếu được sử dụng chỉ nên đóng vai trò mở rộng. Sinh viên phải mô tả rõ mô hình, dữ liệu, retrieval và cách đánh giá.
+515 | LLM/RAG nếu được sử dụng chỉ nên đóng vai trò mở rộng. Sinh viên phải mô tả rõ mô hình, dữ liệu, retrieval và cách đánh giá.
+516 | Sinh viên phải khai báo việc sử dụng AI trong báo cáo, nghiên cứu và quá trình thực hiện theo quy định của môn học.
+517 | Sinh viên phải khai báo việc sử dụng AI trong báo cáo, nghiên cứu và quá trình thực hiện theo quy định của môn học.
+518 | Tuần 3 học context-free grammar, grammar and sentence structure, top-down parsing, bottom-up chart parsing, top-down chart parsing, probabilistic context-free grammar, dependency grammar, Stanford dependencies.
+519 | CH04 được học vào tuần 4, tuần 5.
+520 | CH03 (Grammar and Parsing): The chapter introduces context-free grammar, sentence structure and parsing methods. It also introduces probabilistic CFG and dependency grammar.
+521 | CH03 (Grammar and Parsing): The chapter introduces context-free grammar, sentence structure and parsing methods. It also introduces probabilistic CFG and dependency grammar.
+522 | CH03 (Grammar and Parsing): The chapter introduces context-free grammar, sentence structure and parsing methods. It also introduces probabilistic CFG and dependency grammar.
+523 | Chương 10, Other Strategies for Semantic Interpretation.
+524 | Chương 11.
+525 | Chương 11.
+526 | Chương 11.
+527 | Chương 12.
+528 | Chương 4.
+529 | PCFG được trình bày trong Chương 3 và tiếp tục được sử dụng trong Chương 6 về các phương pháp thống kê.
+530 | Chương 4 (Features and Augmented Grammar): The chapter extends formal grammar with feature systems and augmented grammar. It covers lexicon, parsing with features, augmented transition networks, generalized feature systems and unification grammar.
+531 | LO2.5: Kiến thức xác suất để giải quyết nhập nhằng từ ở mức câu.
+532 | LO4.2: Ngữ cảnh diễn ngôn cục bộ và sự tham chiếu.
+533 | LO2.5: Kiến thức xác suất để giải quyết nhập nhằng từ ở mức câu.
+534 | LO3.3: Giải quyết nhập nhằng ngữ nghĩa dựa trên tri thức và thống kê.
+535 | Môn học gồm các phần chính: Part I - Syntactic Processing Part II - Semantic Interpretation Part III - Context and World Knowledge.
+536 | Thời lượng thi cuối kỳ là 90 phút.
+537 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+538 | Môn Xử lý Ngôn ngữ Tự nhiên (CO3085) có 3 tín chỉ.
+539 | Môn Xử lý Ngôn ngữ Tự nhiên (CO3085) có 3 tín chỉ.
+540 | Môn Xử lý Ngôn ngữ Tự nhiên (CO3085) có 3 tín chỉ.
+541 | Môn Xử lý Ngôn ngữ Tự nhiên (CO3085) có 3 tín chỉ.
+542 | Môn Xử lý Ngôn ngữ Tự nhiên (CO3085) có 3 tín chỉ.
+543 | Môn Xử lý Ngôn ngữ Tự nhiên (CO3085) có 3 tín chỉ.
+544 | Môn Xử lý Ngôn ngữ Tự nhiên (CO3085) có 3 tín chỉ.
+545 | Môn Xử lý Ngôn ngữ Tự nhiên (CO3085) có 3 tín chỉ.
+546 | Môn Xử lý Ngôn ngữ Tự nhiên (CO3085) có 3 tín chỉ.
+547 | LO2.5: Kiến thức xác suất để giải quyết nhập nhằng từ ở mức câu.
+548 | Thời lượng thi giữa kỳ là 60 phút.
+549 | Môn Xử lý Ngôn ngữ Tự nhiên (CO3085) có 3 tín chỉ.
+550 | Tuần 3 học context-free grammar, grammar and sentence structure, top-down parsing, bottom-up chart parsing, top-down chart parsing, probabilistic context-free grammar, dependency grammar, Stanford dependencies.
+551 | Tuần 3 học context-free grammar, grammar and sentence structure, top-down parsing, bottom-up chart parsing, top-down chart parsing, probabilistic context-free grammar, dependency grammar, Stanford dependencies.
+552 | Tài liệu phù hợp: Natural Language Processing with Python.
+553 | CH03 (Grammar and Parsing): The chapter introduces context-free grammar, sentence structure and parsing methods. It also introduces probabilistic CFG and dependency grammar.
+554 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+555 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+556 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+557 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+558 | Môn Xử lý Ngôn ngữ Tự nhiên (CO3085) có 3 tín chỉ.
+559 | Môn Xử lý Ngôn ngữ Tự nhiên (CO3085) có 3 tín chỉ.
+560 | Tuần 3 học context-free grammar, grammar and sentence structure, top-down parsing, bottom-up chart parsing, top-down chart parsing, probabilistic context-free grammar, dependency grammar, Stanford dependencies.
+561 | Chương 3 (Grammar and Parsing): The chapter introduces context-free grammar, sentence structure and parsing methods. It also introduces probabilistic CFG and dependency grammar.
+562 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+563 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+564 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+565 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+566 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+567 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+568 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+569 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+570 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+571 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+572 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+573 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+574 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+575 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+576 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+577 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+578 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+579 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+580 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+581 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+582 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+583 | Chương 3 (Grammar and Parsing): The chapter introduces context-free grammar, sentence structure and parsing methods. It also introduces probabilistic CFG and dependency grammar.
+584 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+585 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+586 | Chương 3 (Grammar and Parsing): The chapter introduces context-free grammar, sentence structure and parsing methods. It also introduces probabilistic CFG and dependency grammar.
+587 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+588 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+589 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+590 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+591 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+592 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+593 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+594 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+595 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+596 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+597 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+598 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+599 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+600 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+601 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+602 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+603 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+604 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+605 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+606 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+607 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+608 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+609 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+610 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+611 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+612 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+613 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+614 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+615 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+616 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+617 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+618 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+619 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+620 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+621 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+622 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+623 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+624 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+625 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+626 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+627 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+628 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+629 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+630 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+631 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+632 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+633 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+634 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+635 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+636 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+637 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+638 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+639 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+640 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+641 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+642 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+643 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+644 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+645 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+646 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+647 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+648 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+649 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+650 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+651 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+652 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+653 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+654 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+655 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+656 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+657 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+658 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+659 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+660 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+661 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+662 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+663 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+664 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+665 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+666 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+667 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+668 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+669 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+670 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+671 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+672 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+673 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+674 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+675 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+676 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+677 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+678 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+679 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+680 | CH03 (Grammar and Parsing): The chapter introduces context-free grammar, sentence structure and parsing methods. It also introduces probabilistic CFG and dependency grammar.
+681 | Tuần 7 học basic probability theory, estimating probabilities, part-of-speech tagging, lexical probabilities, probabilistic context-free grammar.
+682 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+683 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+684 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+685 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+686 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+687 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+688 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+689 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+690 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+691 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+692 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+693 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+694 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+695 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+696 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+697 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+698 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+699 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+700 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+701 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+702 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+703 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+704 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+705 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+706 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+707 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+708 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+709 | Tuần 3 học context-free grammar, grammar and sentence structure, top-down parsing, bottom-up chart parsing, top-down chart parsing, probabilistic context-free grammar, dependency grammar, Stanford dependencies.
+710 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+711 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+712 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+713 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+714 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+715 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+716 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+717 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+718 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+719 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+720 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+721 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+722 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+723 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+724 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+725 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+726 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+727 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+728 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+729 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+730 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+731 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.

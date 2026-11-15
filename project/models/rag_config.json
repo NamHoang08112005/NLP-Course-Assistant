@@ -1,6 +1,11 @@
 ﻿{
-  "provider": "",
-  "model": "",
+  "provider": "openai",
+  "option": "statistical",
+  "model": "gpt-4o-mini",
+  "embedding_model": "text-embedding-3-small",
+  "max_completion_tokens": 512,
+  "temperature": 0.0,
+  "index_path": "models/faiss_index",
   "retrieval": {
     "top_k": 5
   }

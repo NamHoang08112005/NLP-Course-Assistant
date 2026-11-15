@@ -1,0 +1,5 @@
+{
+  "knowledge_base_sha256": "69df5de5534cfa2361a68f55d231d408c5e10b0cf352c0a42fa1d1fb52fa6b97",
+  "embedding_model": "text-embedding-3-small",
+  "document_strategy": "course_sections_v1"
+}
