@@ -1,0 +1,22 @@
+BÁO CÁO ĐÁNH GIÁ
+
+Số ca kiểm thử: 40
+Theo nhóm:
+- VALID_AND_PARAPHRASE: 25
+- OUT_OF_SCOPE: 3
+- CONTEXT_DEPENDENT: 6
+- KB_MISSING: 6
+
+Intent đúng: 40/40 (100.0%)
+Entity đúng: 37/40 (92.5%)
+Câu trả lời đúng: 40/40 (100.0%)
+Đạt cả ba tiêu chí: 37/40 (92.5%)
+
+Corpus:
+- Câu phân tích hợp lệ: 552/731 (75.5%)
+- Câu không phân tích được: 179/731 (24.5%)
+
+Ca cần xem lại:
+- Q038 [KB_MISSING] "L.O.5.1 là gì?" | expected: GET_LO/LO5.1 | predicted: UNKNOWN/-
+- Q039 [KB_MISSING] "Tài liệu nào xuất bản năm 2025?" | expected: GET_RESOURCE/2025 | predicted: UNKNOWN/-
+- Q040 [KB_MISSING] "Môn NLP có bao nhiêu sinh viên?" | expected: UNKNOWN/OUT_OF_SCOPE | predicted: UNKNOWN/-

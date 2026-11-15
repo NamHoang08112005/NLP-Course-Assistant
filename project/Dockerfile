@@ -7,6 +7,7 @@ ENV COURSE_ASSISTANT_INPUT_DIR=/nlp/input
 ENV COURSE_ASSISTANT_OUTPUT_DIR=/nlp/output
 
 WORKDIR /app
+RUN mkdir -p /nlp/input /nlp/output /app/output
 
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt

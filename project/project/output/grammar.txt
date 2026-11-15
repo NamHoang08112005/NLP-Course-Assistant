@@ -1,0 +1,66 @@
+ASSIGN_Q -> NP_APART P NP_ASSIGN V WH | NP_ASSIGN V N TOPIC PART | NP_APART V WH | ATTR P NP_ASSIGN V WH | NP_APART P NP_ASSIGN V DET WH | NP_ASSIGN V V DET WH | NP_ASSIGN V V V ITEM PART | N FILE V WH | NP_APART P NP_ASSIGN V V N WH | NP_ASSIGN V DET N WH | DET N V WH N | N FILE V P V WH | N P NP_APART V DET N WH | N P NP_ASSIGN V WH | N V V DET N WH | NP_APART P NP_ASSIGN V V PART | NP_ASSIGN V DET WH | NP_ASSIGN V N V TOPIC PART | NP_ASSIGN V N V WH | NP_ASSIGN V P N WH N | NP_ASSIGN V V ITEM PART | NP_ASSIGN V WH | NP_ASSIGN V WH N | NP_EXT V V PART | V NP_ASSIGN WH | WH P V NP_ASSIGN
+AUTHOR_LIST -> AUTHOR CONJ AUTHOR
+DEADLINE_Q -> MILE P NP_ASSIGN V WH_WEEK | N P NP_ASSIGN V WH | WH V V NP_ASSIGN | EXAM V P WH_WEEK | EXAM V WH | MILE V V WH | MILE V WH | N NP_ASSIGN V WH | N TOPIC P NP_ASSIGN V P WH_WEEK | N TOPIC V WH | NP_ASSIGN V P WH_WEEK | WH V NP_ASSIGN
+INFO_Q -> NP_COURSE V WH ATTR | ATTR P NP_COURSE V WH | NP_COMP V WH N N | EXAM V WH | NP_COURSE V WH N | EXAM WH N | NP_COURSE V DET N WH | NP_COURSE V N WH | EXAM V V V N PART | NP_COURSE V P WH_SEM | ATTR NP_COURSE V WH | ATTR P EXAM V WH | N WH V NP_COURSE | NP_COMP V V WH | NP_COURSE DET N V WH N | NP_COURSE V ADV WH N | NP_COURSE WH ATTR | WH V NP_COURSE
+LO_Q -> NP_LO V WH | NP_LO V N WH | NP_LO V P WH | N WH V TOPIC | NP_COURSE V DET N WH | NP_COURSE V WH N
+NP_APART -> CLF ROMAN | CLF TOPIC
+NP_ASSIGN -> ASSIGN
+NP_CHAP -> CLF NUM | CLF ORD NUM
+NP_COMP -> COMP
+NP_COURSE -> CLF COURSE | CLF | COURSE | CLF COURSE SEM
+NP_CPART -> CLF CPART | CLF ROMAN
+NP_EXT -> N EXT
+NP_LO -> LO
+NP_SUB -> CLF SUBID | SUBID
+NP_TOOL -> N TOOL | TOOL
+NP_TOPIC -> CLF TOPIC
+NP_WEEK -> CLF NUM | CLF ORD NUM
+RESOURCE_Q -> N WH V USAGE | N WH P N AUTHOR | TITLE V P WH | ATTR P TITLE V WH | TITLE V P V WH | WH V ATTR P TITLE | N P AUTHOR V P WH | N P USAGE V WH | N TITLE V P WH | N WH P USAGE | N WH V P YEAR | AUTHOR_LIST V N WH | N NP_WEEK V WH | N P AUTHOR V N WH V | N P NP_ASSIGN V WH | N P NP_CHAP V WH | N P NP_COURSE V DET WH | N P NP_COURSE V WH | N P NP_WEEK V WH | N RESID V P WH | N TITLE V WH V | N WH P AUTHOR_LIST | N WH P PUBLISHER | N WH V AUTHOR V | N WH V TOPIC | N WH V V N | NP_COURSE V DET N WH | NP_COURSE V WH N | NP_CPART V N WH | RESID V WH | TITLE V WH V | V V N N WH P V ADV P N | WH V N TITLE
+RULE_Q -> N P N V WH | N P V TOOL V WH | V V V N PART | N V NP_ASSIGN V WH | N V V V ADV PART | N V V V N P N PART | N V V V N PART | N V V V N V TOOL PART | N V V V TOOL PART | N V V WH P N N | NP_ASSIGN V N WH P TOOL | NP_ASSIGN V V V NP_TOOL PART | NP_ASSIGN V V V TOOL_LIST PART | NP_COURSE V DET N WH | NP_COURSE V V N PART | TOOL V V PART | V N V V N V V V WH | V V TOOL PART | V V TOOL V V V DET WH | V V V N P DET N PART | V V V N P N PART | V V V NP_TOOL PART | V V V TOOL PART | V V V V N PART
+S -> TOPIC_Q | SCHED_Q | INFO_Q | RESOURCE_Q | ASSIGN_Q | LO_Q | RULE_Q | DEADLINE_Q
+SCHED_Q -> NP_WEEK V WH | TOPIC V P WH_WEEK | NP_CHAP V P WH_WEEK | NP_CPART V P WH_WEEK | NP_WEEK V N WH | TOPIC V V P WH_WEEK | NP_CHAP V V P WH_WEEK | NP_TOPIC V WH_WEEK | NP_WEEK V DET N WH | NP_WEEK V DET WH | NP_WEEK V V TOPIC PART | TOPIC V WH_WEEK | WH_WEEK V TOPIC | CHID V P WH_WEEK | NP_WEEK V WH_CHAP | EXAM V P WH_DATE | EXAM V P WH_WEEK | NP_APART P NP_ASSIGN V P WH_WEEK | NP_CHAP V P NP_WEEK PART | NP_COURSE V P WH_DAY | NP_COURSE V P WH_ROOM | NP_CPART P NP_COURSE V P WH_WEEK | NP_WEEK V N WH P NP_ASSIGN | NP_WEEK V NP_CHAP PART | WH_CHAP V P NP_WEEK | WH_WEEK V N
+TOOL_LIST -> TOOL CONJ TOOL
+TOPIC_LIST -> TOPIC CONJ TOPIC
+TOPIC_Q -> TOPIC V WH_CHAP | WH_CHAP V TOPIC | WH_CHAP V P TOPIC | TOPIC V V P WH | NP_CHAP V WH | NP_CHAP V DET N WH | NP_CHAP V V TOPIC PART | NP_CHAP V P WH | ATTR P NP_CHAP V WH | CHID V WH | NP_CPART V DET WH_CHAP | NP_SUB V WH | TOPIC V P WH_CHAP | NP_CHAP V TOPIC PART | NP_CHAP V WH_PART P NP_COURSE | NP_TOPIC V WH | CHID V DET N WH | NP_CHAP V WH N | NP_COURSE V DET N WH | NP_CPART V WH | NP_WEEK V TOPIC P WH_CHAP | WH_CHAP V P TOPIC_LIST | WH_CHAP V TOPIC_LIST
+WH_CHAP -> CLF WH
+WH_DATE -> N WH
+WH_DAY -> N WH
+WH_PART -> N WH
+WH_ROOM -> N WH
+WH_SEM -> N WH
+WH_WEEK -> CLF WH
+ADV -> 'sâu' | 'tổng_cộng' | 'đầy_đủ'
+ASSIGN -> 'bài_tập_lớn' | 'btl' | 'intelligent_course_assistant' | 'btl01'
+ATTR -> 'tín_chỉ' | 'tác_giả' | 'tên' | 'ects' | 'giảng_viên' | 'mục_tiêu' | 'nhà_xuất_bản' | 'cách_tính_điểm' | 'giờ_làm_bài_tập_lớn' | 'giờ_lý_thuyết' | 'giờ_tự_học' | 'hình_thức_thi' | 'miền_ứng_dụng' | 'mô_tả' | 'tên_tiếng_anh' | 'tên_đầy_đủ' | 'đồng_tác_giả'
+AUTHOR -> 'eisenstein' | 'jurafsky' | 'martin' | 'phan_thị_tươi' | 'bird' | 'christopher_manning' | 'dan_jurafsky' | 'hutchins' | 'klein' | 'manning' | 'schütze' | 'steven_bird'
+CHID -> 'ch04' | 'ch01' | 'ch03' | 'ch10' | 'ch12'
+CLF -> 'chương' | 'tuần' | 'môn' | 'phần' | 'môn_học' | 'part' | 'chapter' | 'mục' | 'week'
+COMP -> 'bài_tập_lớn' | 'final' | 'midterm' | 'thi_cuối_kì' | 'thi_cuối_kỳ' | 'thi_giữa_kì' | 'thi_giữa_kỳ' | 'điểm_chuyên_cần_và_bài_tập'
+CONJ -> 'và' | 'hoặc'
+COURSE -> 'nlp' | 'co3085' | 'natural_language_processing' | 'xử_lý_ngôn_ngữ_tự_nhiên'
+CPART -> 'semantic_interpretation' | 'syntactic_processing' | 'context_and_world_knowledge' | 'diễn_dịch_ngữ_nghĩa' | 'integration_and_evaluation' | 'introduction' | 'ngữ_cảnh_và_tri_thức_thế_giới' | 'xử_lý_cú_pháp'
+DET -> 'những' | 'mỗi' | 'các'
+EXAM -> 'final' | 'midterm' | 'thi_cuối_kỳ' | 'thi_giữa_kì'
+EXT -> 'llm/rag'
+FILE -> 'grammar.txt' | 'parse-results.txt' | 'semantic.txt'
+ITEM -> 'agent' | 'fine-tuning_llm' | 'multi-agent' | 'test_set'
+LO -> 'lo2.5' | 'lo4.2' | 'lo1.1' | 'lo2' | 'lo3.3' | 'lo1' | 'lo2.1' | 'lo2.2' | 'lo2.3' | 'lo2.4' | 'lo3' | 'lo3.1' | 'lo3.2' | 'lo3.4' | 'lo4' | 'lo4.1'
+MILE -> 'checkpoint_1' | 'checkpoint_2' | 'bản_nộp_cuối'
+N -> 'tài_liệu' | 'nội_dung' | 'phần' | 'tác_giả' | 'phần_trăm' | 'quy_định' | 'điểm' | 'giáo_trình' | 'file' | 'sinh_viên' | 'lo' | 'nhóm' | 'tài_liệu_tham_khảo' | 'chương' | 'deadline' | 'hoạt_động' | 'hệ_thống' | 'milestone' | 'mục_nhỏ' | 'phút' | 'phương_pháp' | 'phần_chính' | 'yêu_cầu' | 'cuốn' | 'khoa' | 'mã_nguồn' | 'slide_bài_giảng' | 'sách' | 'tuần' | 'từ_khóa' | 'bài_giảng' | 'bài_làm' | 'chuyên_cần' | 'chuẩn_đầu_ra' | 'code' | 'code_of_ethics' | 'câu_hỏi' | 'câu_trả_lời' | 'công_cụ' | 'cú_pháp' | 'giờ' | 'hạn_nộp' | 'học_kì' | 'học_kỳ' | 'intent' | 'khối_kiến_thức' | 'liêm_chính_học_thuật' | 'môn' | 'mốc' | 'ngoài_phạm_vi' | 'ngày' | 'người' | 'nhà_xuất_bản' | 'nhóm_khác' | 'output' | 'phòng' | 'phần_mở_rộng' | 'slide' | 'thêm' | 'thư_viện_bên_ngoài' | 'thư_viện_công_khai' | 'thứ' | 'tiết' | 'tên' | 'việc' | 'điểm_danh'
+NUM -> '3' | '11' | '4' | '12' | '5' | '8' | '1' | '10' | '9' | '15' | '6' | '7' | '13' | '2' | '03' | '003' | '14' | '16' | '2147483648' | '99999999999999999999'
+ORD -> 'số' | 'thứ'
+P -> 'của' | 'vào' | 'về' | 'ở' | 'năm' | 'để' | 'giữa' | 'theo' | 'với'
+PART -> 'không' | 'phải_không' | 'đúng_không'
+PUBLISHER -> 'mit_press'
+RESID -> 'reference_3'
+ROMAN -> 'i' | 'ii' | 'iii' | 'iv'
+SEM -> 'hk261'
+SUBID -> '11.5' | '3.1.3' | '3.2'
+TITLE -> 'speech_and_language_processing' | 'an_introduction_to_machine_translation' | 'foundation_of_statistical_natural_language_processing' | 'introduction_to_natural_language_processing' | 'natural_language_processing_with_python' | 'natural_language_understanding_and_world_knowledge' | 'stanford_coursera' | 'xử_lý_ngôn_ngữ_tự_nhiên'
+TOOL -> 'ai' | 'llm/rag' | 'chatgpt' | 'llm' | 'rag'
+TOPIC -> 'pcfg' | 'cfg' | 'hỏi_đáp' | 'local_discourse_context' | 'parser' | 'question_answering' | 'wsd' | 'unification' | 'anaphora' | 'augmented_grammar' | 'compositionality' | 'ellipsis' | 'features' | 'grammatical_relations' | 'knowledge_representation' | 'lexicon' | 'parsing' | 'part-of-speech_tagging' | 'pos_tagging' | 'procedural_semantics' | 'reference' | 'selectional_restriction' | 'semantic_grammar' | 'semantically_driven_parsing' | 'adjective_phrases' | 'adverbial_phrases' | 'augmented_grammars' | 'augmented_transition_networks' | 'auxiliary_verbs' | 'basic_logical_form_language' | 'basic_probability_theory' | 'best-first_parsing' | 'biểu_diễn_tri_thức' | 'biểu_diễn_và_hiểu_ngôn_ngữ' | 'bottom-up_chart_parsing' | 'centering' | 'context-free_grammar' | 'các_mức_phân_tích_ngôn_ngữ' | 'definite_descriptions' | 'definite_reference_and_sets' | 'demonstration_and_final_btl_review' | 'dependency_grammar' | 'dialog-based_applications' | 'discourse_entities' | 'dạng_luận_lý' | 'encoding_ambiguity_in_logical_form' | 'error_analysis' | 'estimating_probabilities' | 'evaluation' | 'feature_systems' | 'feature_systems_for_english' | 'frames' | 'generalized_feature_systems' | 'generating_sentences_from_logical_form' | 'giới_hạn_lựa_chọn' | 'grammar_and_parser' | 'grammar_and_sentence_structure' | 'gán_nhãn_từ_loại' | 'handling_questions_in_cfg' | 'handling_simple_questions' | 'history_list' | 'hội_thoại' | 'hợp_nhất' | 'lexical_probabilities' | 'lexicalized_semantic_interpretation' | 'logical_form' | 'movement_phenomena' | 'mạng_ngữ_nghĩa' | 'natural_language_quantification' | 'nghiên_cứu_ngôn_ngữ_tự_nhiên' | 'ngữ_cảnh_diễn_ngôn_cục_bộ' | 'nlu' | 'noun_phrase' | 'noun_phrases_revisited' | 'nét' | 'parsing_with_features' | 'phân_tích_cú_pháp' | 'probabilistic_context-free_grammar' | 'pronouns_and_centering' | 'qa' | 'quan_hệ_quy_chiếu' | 'relative_clauses' | 'selectional_restrictions' | 'semantic_filtering' | 'semantic_grammars' | 'semantic_interpretation' | 'semantic_interpretation_and_qa' | 'semantic_interpretation_using_feature_unification' | 'semantic_network' | 'semantic_networks' | 'semantic_roles' | 'semantics_and_logical_form' | 'simple_context-dependent_best-first_parser' | 'simple_noun_phrases' | 'simple_sentences' | 'speech_acts' | 'speech_acts_and_embedded_sentences' | 'stanford_dependencies' | 'statistical_word_sense_disambiguation' | 'surface_anaphora' | 'system_evaluation' | 'template_matching' | 'text-based_applications' | 'tham_chiếu' | 'thematic_roles' | 'time_and_aspectual_classes' | 'top-down_chart_parsing' | 'top-down_parser' | 'top-down_parsing' | 'tổ_chức_hệ_thống_nlu' | 'unification_grammar' | 'vai_trò_chủ_đề' | 'verb_phrases' | 'verbs_and_states' | 'văn_phạm_gia_tố' | 'văn_phạm_ngữ_nghĩa' | 'văn_phạm_phụ_thuộc' | 'what_marks_a_good_grammar' | 'word_sense_disambiguation' | 'word_senses' | 'word_senses_and_ambiguity' | 'words' | 'xác_định_tâm' | 'đánh_giá' | 'đánh_giá_hệ_thống_hiểu_ngôn_ngữ_tự_nhiên' | 'đồng_tham_chiếu' | 'ứng_dụng_dialog-based' | 'ứng_dụng_text-based'
+USAGE -> 'python_nlp' | 'statistical_nlp' | 'dịch_máy' | 'nlp_tiếng_việt' | 'nlp_tổng_quát' | 'nền_tảng_nlp' | 'tri_thức_thế_giới'
+V -> 'học' | 'có' | 'là' | 'nói_về' | 'được' | 'nằm_trong' | 'nằm_ở' | 'liên_quan_đến' | 'dùng' | 'gồm' | 'làm' | 'nộp' | 'xuất_bản' | 'phải' | 'chiếm' | 'yêu_cầu' | 'bắt_buộc' | 'thuộc' | 'cần' | 'viết' | 'do' | 'kéo_dài' | 'sử_dụng' | 'không' | 'hiểu' | 'mở' | 'nên' | 'nếu' | 'thi' | 'thì' | 'xuất' | 'xây_dựng' | 'ở' | 'chia_sẻ' | 'chứa' | 'có_thể' | 'demo' | 'dạy' | 'giải_thích' | 'hỗ_trợ' | 'khai_báo' | 'mô_tả' | 'phát_hành' | 'quản_lý' | 'sao_chép' | 'tham_dự' | 'thể' | 'tuân_thủ' | 'tìm_thấy' | 'đánh_giá' | 'được_phép' | 'đọc'
+WH -> 'nào' | 'gì' | 'bao_nhiêu' | 'mấy' | 'đâu' | 'ai' | 'khi_nào' | 'bao_lâu' | 'như_thế_nào' | 'bao_giờ' | 'làm_sao'
+YEAR -> '1992' | '2019'
+SEM_TOPIC -> 'các_mức_phân_tích_ngôn_ngữ' | 'biểu_diễn_và_hiểu_ngôn_ngữ' | 'ứng_dụng_dialog-based' | 'đồng_tham_chiếu' | 'quan_hệ_quy_chiếu' | 'phân_tích_cú_pháp' | 'nghiên_cứu_ngôn_ngữ_tự_nhiên' | 'ứng_dụng_text-based' | 'đánh_giá_hệ_thống_hiểu_ngôn_ngữ_tự_nhiên' | 'tổ_chức_hệ_thống_nlu' | 'part-of-speech_tagging'

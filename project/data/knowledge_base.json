@@ -1,0 +1,987 @@
+{
+  "course_info": {
+    "course_id": "CO3085",
+    "course_name": "Xử lý Ngôn ngữ Tự nhiên",
+    "course_name_en": "Natural Language Processing",
+    "semester": "HK261",
+    "instructor": "Võ Thanh Hùng",
+    "credits": "3",
+    "ects": "6",
+    "course_type": "Specialty / Graduation knowledge block",
+    "department": "Khoa Khoa học và Kỹ thuật Máy tính",
+    "format": "2 lecture periods per week, 15 weeks",
+    "total_course_hours": "150",
+    "lecture_hours": "30",
+    "major_assignment_hours": "45",
+    "self_study_hours": "60",
+    "course_description": "Môn học cung cấp các khái niệm, lý thuyết và kỹ thuật nền tảng của\nxử lý ngôn ngữ tự nhiên. Nội dung được tổ chức thành ba phần chính:\n(1) Xử lý cú pháp, (2) Diễn dịch ngữ nghĩa, và (3) Ngữ cảnh và tri thức\nthế giới.\nMục tiêu:\nSinh viên có khả năng phân tích các vấn đề NLP và xây dựng các chương\ntrình/hệ thống cơ bản có khả năng hiểu ngôn ngữ tự nhiên trong một miền\nứng dụng cụ thể.",
+    "main_parts": "Part I - Syntactic Processing\nPart II - Semantic Interpretation\nPart III - Context and World Knowledge",
+    "learning_outcomes": "LO1 - Tổng quan về tổ chức hệ thống NLP và các ứng dụng.\nLO2 - Xử lý cú pháp; xây dựng văn phạm đơn giản và phân tích cú pháp.\nLO3 - Diễn dịch ngữ nghĩa; tạo dạng luận lý và giải quyết nhập nhằng.\nLO4 - Ngữ nghĩa và tri thức thế giới; xây dựng cơ sở tri thức và hệ thống\nhỏi đáp đơn giản.",
+    "detailed_learning_outcomes": "LO1.1 - Hiểu cấu trúc hệ thống NLP, ứng dụng và cách đánh giá hệ thống\nhiểu ngôn ngữ tự nhiên.\nLO2.1 - Kiến thức cơ sở về cú pháp tiếng Anh.\nLO2.2 - Kiến thức cơ bản về văn phạm và phân tích cú pháp.\nLO2.3 - Kiến thức về nét và văn phạm gia tố.\nLO2.4 - Kiến thức tạo văn phạm cho ngôn ngữ tự nhiên và phương pháp parsing.\nLO2.5 - Kiến thức xác suất để giải quyết nhập nhằng từ ở mức câu.\nLO3.1 - Kiến thức về ngôn ngữ dạng luận lý và tạo dạng luận lý đơn giản.\nLO3.2 - Tạo tự động diễn dịch ngữ nghĩa cho câu tự nhiên.\nLO3.3 - Giải quyết nhập nhằng ngữ nghĩa dựa trên tri thức và thống kê.\nLO3.4 - Diễn dịch ngữ nghĩa bằng quan hệ văn phạm và văn phạm ngữ nghĩa.\nLO4.1 - Biểu diễn tri thức, suy diễn và xây dựng hệ thống hỏi đáp đơn giản.\nLO4.2 - Ngữ cảnh diễn ngôn cục bộ và sự tham chiếu.",
+    "assessment": "",
+    "class_attention_and_assignments": "15 percent",
+    "major_assignment": "15 percent",
+    "midterm_exam": "30 percent",
+    "final_exam": "40 percent",
+    "exam_format": "",
+    "midterm": "open-book, written, 60 minutes",
+    "final": "open-book, written, 90 minutes",
+    "description": "Môn học cung cấp các khái niệm, lý thuyết và kỹ thuật nền tảng của xử lý ngôn ngữ tự nhiên. Nội dung được tổ chức thành ba phần chính: (1) Xử lý cú pháp, (2) Diễn dịch ngữ nghĩa, và (3) Ngữ cảnh và tri thức thế giới.",
+    "goal": "Sinh viên có khả năng phân tích các vấn đề NLP và xây dựng các chương trình/hệ thống cơ bản có khả năng hiểu ngôn ngữ tự nhiên trong một miền ứng dụng cụ thể."
+  },
+  "learning_outcomes": {
+    "LO1": "Tổng quan về tổ chức hệ thống NLP và các ứng dụng.",
+    "LO2": "Xử lý cú pháp; xây dựng văn phạm đơn giản và phân tích cú pháp.",
+    "LO3": "Diễn dịch ngữ nghĩa; tạo dạng luận lý và giải quyết nhập nhằng.",
+    "LO4": "Ngữ nghĩa và tri thức thế giới; xây dựng cơ sở tri thức và hệ thống hỏi đáp đơn giản.",
+    "LO1.1": "Hiểu cấu trúc hệ thống NLP, ứng dụng và cách đánh giá hệ thống hiểu ngôn ngữ tự nhiên.",
+    "LO2.1": "Kiến thức cơ sở về cú pháp tiếng Anh.",
+    "LO2.2": "Kiến thức cơ bản về văn phạm và phân tích cú pháp.",
+    "LO2.3": "Kiến thức về nét và văn phạm gia tố.",
+    "LO2.4": "Kiến thức tạo văn phạm cho ngôn ngữ tự nhiên và phương pháp parsing.",
+    "LO2.5": "Kiến thức xác suất để giải quyết nhập nhằng từ ở mức câu.",
+    "LO3.1": "Kiến thức về ngôn ngữ dạng luận lý và tạo dạng luận lý đơn giản.",
+    "LO3.2": "Tạo tự động diễn dịch ngữ nghĩa cho câu tự nhiên.",
+    "LO3.3": "Giải quyết nhập nhằng ngữ nghĩa dựa trên tri thức và thống kê.",
+    "LO3.4": "Diễn dịch ngữ nghĩa bằng quan hệ văn phạm và văn phạm ngữ nghĩa.",
+    "LO4.1": "Biểu diễn tri thức, suy diễn và xây dựng hệ thống hỏi đáp đơn giản.",
+    "LO4.2": "Ngữ cảnh diễn ngôn cục bộ và sự tham chiếu."
+  },
+  "schedule": {
+    "note": "Lưu ý: Đây là kế hoạch mẫu được xây dựng từ cấu trúc 12 chương trong đề cương CO3085. Nó phục vụ bài tập Course Assistant và không thay thế lịch học hành chính chính thức.",
+    "weeks": {
+      "1": {
+        "week": 1,
+        "topics": [
+          "nghiên cứu ngôn ngữ tự nhiên",
+          "ứng dụng text-based",
+          "ứng dụng dialog-based",
+          "đánh giá hệ thống hiểu ngôn ngữ tự nhiên",
+          "các mức phân tích ngôn ngữ",
+          "biểu diễn và hiểu ngôn ngữ",
+          "tổ chức hệ thống NLU"
+        ],
+        "part": "Introduction",
+        "chapter": "Chapter 1",
+        "chapter_id": "CH01"
+      },
+      "2": {
+        "week": 2,
+        "topics": [
+          "words",
+          "simple noun phrases",
+          "verb phrases",
+          "simple sentences",
+          "adjective phrases",
+          "adverbial phrases"
+        ],
+        "part": "Syntactic Processing",
+        "chapter": "Chapter 2",
+        "chapter_id": "CH02"
+      },
+      "3": {
+        "week": 3,
+        "topics": [
+          "context-free grammar",
+          "grammar and sentence structure",
+          "top-down parsing",
+          "bottom-up chart parsing",
+          "top-down chart parsing",
+          "probabilistic context-free grammar",
+          "dependency grammar",
+          "Stanford dependencies"
+        ],
+        "part": "Syntactic Processing",
+        "chapter": "Chapter 3",
+        "chapter_id": "CH03"
+      },
+      "4": {
+        "week": 4,
+        "topics": [
+          "feature systems",
+          "augmented grammars",
+          "feature systems for English",
+          "lexicon",
+          "grammar using feature systems",
+          "parsing with features"
+        ],
+        "part": "Syntactic Processing",
+        "chapter": "Chapter 4",
+        "chapter_id": "CH04"
+      },
+      "5": {
+        "week": 5,
+        "topics": [
+          "augmented transition networks",
+          "generalized feature systems",
+          "unification grammar"
+        ],
+        "part": "Syntactic Processing",
+        "chapter": "Chapter 4",
+        "activity": "feature-based parsing exercises",
+        "chapter_id": "CH04"
+      },
+      "6": {
+        "week": 6,
+        "topics": [
+          "auxiliary verbs and verb phrases",
+          "movement phenomena",
+          "handling questions in CFG",
+          "relative clauses"
+        ],
+        "part": "Syntactic Processing",
+        "chapter": "Chapter 5",
+        "chapter_id": "CH05"
+      },
+      "7": {
+        "week": 7,
+        "topics": [
+          "basic probability theory",
+          "estimating probabilities",
+          "part-of-speech tagging",
+          "lexical probabilities",
+          "probabilistic context-free grammar"
+        ],
+        "part": "Syntactic Processing",
+        "chapter": "Chapter 6",
+        "chapter_id": "CH06"
+      },
+      "8": {
+        "week": 8,
+        "topics": [
+          "best-first parsing",
+          "simple context-dependent best-first parser"
+        ],
+        "part": "Syntactic Processing",
+        "chapter": "Chapter 6",
+        "activity": "ambiguity-resolution exercises",
+        "milestone": "BTL checkpoint 1 - grammar and parser",
+        "chapter_id": "CH06"
+      },
+      "9": {
+        "week": 9,
+        "topics": [
+          "semantics and logical form",
+          "word senses and ambiguity",
+          "basic logical form language",
+          "encoding ambiguity in logical form",
+          "verbs and states",
+          "thematic roles",
+          "speech acts and embedded sentences"
+        ],
+        "part": "Semantic Interpretation",
+        "chapter": "Chapter 7",
+        "chapter_id": "CH07"
+      },
+      "10": {
+        "week": 10,
+        "topics": [
+          "semantic interpretation and compositionality",
+          "grammar and lexicon with semantic interpretation",
+          "prepositional phrases and verb phrases",
+          "lexicalized semantic interpretation",
+          "semantic roles",
+          "handling simple questions"
+        ],
+        "part": "Semantic Interpretation",
+        "chapter": "Chapter 8",
+        "chapter_id": "CH08"
+      },
+      "11": {
+        "week": 11,
+        "topics": [
+          "selectional restrictions",
+          "semantic filtering",
+          "semantic networks",
+          "statistical word sense disambiguation"
+        ],
+        "part": "Semantic Interpretation",
+        "chapter": "Chapter 9",
+        "chapter_id": "CH09"
+      },
+      "12": {
+        "week": 12,
+        "topics": [
+          "grammatical relations",
+          "semantic grammars",
+          "template matching",
+          "semantically driven parsing"
+        ],
+        "part": "Semantic Interpretation",
+        "chapter": "Chapter 10",
+        "milestone": "BTL checkpoint 2 - semantic interpretation and QA",
+        "chapter_id": "CH10"
+      },
+      "13": {
+        "week": 13,
+        "topics": [
+          "knowledge representation",
+          "frames",
+          "natural language quantification",
+          "time and aspectual classes",
+          "procedural semantics",
+          "question answering"
+        ],
+        "part": "Context and World Knowledge",
+        "chapter": "Chapter 11",
+        "chapter_id": "CH11"
+      },
+      "14": {
+        "week": 14,
+        "topics": [
+          "local discourse context",
+          "discourse entities",
+          "anaphora",
+          "pronouns and centering",
+          "definite descriptions",
+          "definite reference and sets",
+          "ellipsis",
+          "surface anaphora"
+        ],
+        "part": "Context and World Knowledge",
+        "chapter": "Chapter 12",
+        "chapter_id": "CH12"
+      },
+      "15": {
+        "week": 15,
+        "topics": [
+          "integrate grammar/parser/semantic interpretation/QA",
+          "local discourse context",
+          "error analysis",
+          "system evaluation",
+          "demonstration and final BTL review"
+        ],
+        "part": "Integration and Evaluation",
+        "milestone": "BTL final submission and demo",
+        "chapter_id": null
+      }
+    }
+  },
+  "topics": {
+    "CH01": {
+      "id": "CH01",
+      "num": 1,
+      "title": "Introduction to Natural Language Processing",
+      "part": "Introduction",
+      "keywords": [
+        "NLP",
+        "NLU",
+        "text-based",
+        "dialog-based",
+        "evaluation"
+      ],
+      "summary": "NLP studies computational methods for processing natural language. The course introduces applications, levels of language analysis, representation and understanding, and organization of natural language understanding systems.",
+      "subtopics": [
+        [
+          "1.1",
+          "The study of natural language"
+        ],
+        [
+          "1.2",
+          "Applications of Natural Language Understanding"
+        ],
+        [
+          "1.2.1",
+          "Text-based applications"
+        ],
+        [
+          "1.2.2",
+          "Dialog-based applications"
+        ],
+        [
+          "1.3",
+          "Evaluating Natural Language Understanding Systems"
+        ],
+        [
+          "1.4",
+          "Different levels of language analysis"
+        ],
+        [
+          "1.5",
+          "Representation and understanding"
+        ],
+        [
+          "1.6",
+          "Organization of NLU systems"
+        ]
+      ]
+    },
+    "CH02": {
+      "id": "CH02",
+      "num": 2,
+      "title": "Linguistic Background - English Syntax",
+      "part": "Syntactic Processing",
+      "keywords": [
+        "syntax",
+        "word",
+        "noun phrase",
+        "verb phrase",
+        "adjective phrase",
+        "adverb"
+      ],
+      "summary": "The chapter reviews basic English syntax, including words, noun phrases, verb phrases, simple sentences, adjective phrases and adverbial phrases.",
+      "subtopics": [
+        [
+          "2.1",
+          "Words"
+        ],
+        [
+          "2.2",
+          "Simple noun phrases"
+        ],
+        [
+          "2.3",
+          "Verb phrases and simple sentences"
+        ],
+        [
+          "2.4",
+          "Noun phrases revisited"
+        ],
+        [
+          "2.5",
+          "Adjective phrases"
+        ],
+        [
+          "2.6",
+          "Adverbial phrases"
+        ]
+      ]
+    },
+    "CH03": {
+      "id": "CH03",
+      "num": 3,
+      "title": "Grammar and Parsing",
+      "part": "Syntactic Processing",
+      "keywords": [
+        "CFG",
+        "parsing",
+        "PCFG",
+        "dependency grammar"
+      ],
+      "summary": "The chapter introduces context-free grammar, sentence structure and parsing methods. It also introduces probabilistic CFG and dependency grammar.",
+      "subtopics": [
+        [
+          "3.1",
+          "Context-Free Grammars"
+        ],
+        [
+          "3.1.1",
+          "Grammar and sentence structure"
+        ],
+        [
+          "3.1.2",
+          "What marks a good grammar"
+        ],
+        [
+          "3.1.3",
+          "Top-down parser"
+        ],
+        [
+          "3.1.4",
+          "Bottom-up chart parser"
+        ],
+        [
+          "3.1.5",
+          "Top-down chart parser"
+        ],
+        [
+          "3.2",
+          "Probabilistic Context-Free Grammars"
+        ],
+        [
+          "3.3",
+          "Dependency Grammar and Parsing"
+        ],
+        [
+          "3.4",
+          "Stanford Dependencies"
+        ]
+      ]
+    },
+    "CH04": {
+      "id": "CH04",
+      "num": 4,
+      "title": "Features and Augmented Grammar",
+      "part": "Syntactic Processing",
+      "keywords": [
+        "feature",
+        "augmented grammar",
+        "lexicon",
+        "unification"
+      ],
+      "summary": "The chapter extends formal grammar with feature systems and augmented grammar. It covers lexicon, parsing with features, augmented transition networks, generalized feature systems and unification grammar.",
+      "subtopics": [
+        [
+          "4.1",
+          "Feature systems and augmented grammars"
+        ],
+        [
+          "4.2",
+          "Basic feature systems for English"
+        ],
+        [
+          "4.3",
+          "Lexicon"
+        ],
+        [
+          "4.4",
+          "Simple grammar using feature systems"
+        ],
+        [
+          "4.5",
+          "Parsing with features"
+        ],
+        [
+          "4.6",
+          "Augmented transition networks"
+        ],
+        [
+          "4.7",
+          "Generalized feature systems and unification grammar"
+        ]
+      ]
+    },
+    "CH05": {
+      "id": "CH05",
+      "num": 5,
+      "title": "Grammar for Natural Language",
+      "part": "Syntactic Processing",
+      "keywords": [
+        "auxiliary",
+        "movement",
+        "question",
+        "relative clause"
+      ],
+      "summary": "The chapter focuses on grammar phenomena important for natural language, including auxiliary verbs, movement, questions and relative clauses.",
+      "subtopics": [
+        [
+          "5.1",
+          "Auxiliary verbs and verb phrases"
+        ],
+        [
+          "5.2",
+          "Movement phenomena in language"
+        ],
+        [
+          "5.3",
+          "Handling questions in context-free grammar"
+        ],
+        [
+          "5.4",
+          "Relative clauses"
+        ]
+      ]
+    },
+    "CH06": {
+      "id": "CH06",
+      "num": 6,
+      "title": "Ambiguity Resolution - Statistical Methods",
+      "part": "Syntactic Processing",
+      "keywords": [
+        "probability",
+        "POS tagging",
+        "lexical probability",
+        "PCFG",
+        "best-first"
+      ],
+      "summary": "Statistical methods are introduced for resolving ambiguity at sentence level. Topics include probability theory, probability estimation, part-of-speech tagging, lexical probabilities, PCFG and best-first parsing.",
+      "subtopics": [
+        [
+          "6.1",
+          "Basic probability theory"
+        ],
+        [
+          "6.2",
+          "Estimating probabilities"
+        ],
+        [
+          "6.3",
+          "Part-of-speech tagging"
+        ],
+        [
+          "6.4",
+          "Lexical probabilities"
+        ],
+        [
+          "6.5",
+          "Probabilistic context-free grammar"
+        ],
+        [
+          "6.6",
+          "Best-first parsing"
+        ],
+        [
+          "6.7",
+          "Simple context-dependent best-first parser"
+        ]
+      ]
+    },
+    "CH07": {
+      "id": "CH07",
+      "num": 7,
+      "title": "Semantics and Logical Form",
+      "part": "Semantic Interpretation",
+      "keywords": [
+        "semantics",
+        "logical form",
+        "word sense",
+        "thematic role",
+        "speech act"
+      ],
+      "summary": "The chapter introduces semantic interpretation and logical forms, including word senses, ambiguity, verbs and states, thematic roles, speech acts and embedded sentences.",
+      "subtopics": [
+        [
+          "7.1",
+          "Semantics and logical form"
+        ],
+        [
+          "7.2",
+          "Word senses and ambiguity"
+        ],
+        [
+          "7.3",
+          "Basic logical form language"
+        ],
+        [
+          "7.4",
+          "Encoding ambiguity in logical form"
+        ],
+        [
+          "7.5",
+          "Verbs and states in logical form"
+        ],
+        [
+          "7.6",
+          "Thematic roles"
+        ],
+        [
+          "7.7",
+          "Speech acts and embedded sentences"
+        ]
+      ]
+    },
+    "CH08": {
+      "id": "CH08",
+      "num": 8,
+      "title": "Linking Syntax and Semantics",
+      "part": "Semantic Interpretation",
+      "keywords": [
+        "compositionality",
+        "semantic interpretation",
+        "semantic role"
+      ],
+      "summary": "The chapter connects syntactic parsing with semantic interpretation. It discusses compositionality, semantic interpretation during parsing, semantic roles, simple questions, feature unification and generation from logical form.",
+      "subtopics": [
+        [
+          "8.1",
+          "Semantic interpretation and compositionality"
+        ],
+        [
+          "8.2",
+          "Simple grammar and lexicon with semantic interpretation"
+        ],
+        [
+          "8.3",
+          "Prepositional phrases and verb phrases"
+        ],
+        [
+          "8.4",
+          "Lexicalized semantic interpretation and semantic roles"
+        ],
+        [
+          "8.5",
+          "Handling simple questions"
+        ],
+        [
+          "8.6",
+          "Semantic interpretation using feature unification"
+        ],
+        [
+          "8.7",
+          "Generating sentences from logical form"
+        ]
+      ]
+    },
+    "CH09": {
+      "id": "CH09",
+      "num": 9,
+      "title": "Ambiguity Resolution",
+      "part": "Semantic Interpretation",
+      "keywords": [
+        "selectional restriction",
+        "semantic network",
+        "WSD"
+      ],
+      "summary": "The chapter covers knowledge-based and statistical methods for semantic ambiguity resolution.",
+      "subtopics": [
+        [
+          "9.1",
+          "Selectional restriction"
+        ],
+        [
+          "9.2",
+          "Semantic filtering using selectional restriction"
+        ],
+        [
+          "9.3",
+          "Semantic networks"
+        ],
+        [
+          "9.4",
+          "Statistical word sense disambiguation"
+        ]
+      ]
+    },
+    "CH10": {
+      "id": "CH10",
+      "num": 10,
+      "title": "Other Strategies for Semantic Interpretation",
+      "part": "Semantic Interpretation",
+      "keywords": [
+        "grammatical relations",
+        "semantic grammar",
+        "template matching"
+      ],
+      "summary": "Alternative approaches to semantic interpretation include grammatical relations, semantic grammars, template matching and semantically driven parsing.",
+      "subtopics": [
+        [
+          "10.1",
+          "Grammatical relations"
+        ],
+        [
+          "10.2",
+          "Semantic grammars"
+        ],
+        [
+          "10.3",
+          "Template matching"
+        ],
+        [
+          "10.4",
+          "Semantically driven parsing techniques"
+        ]
+      ]
+    },
+    "CH11": {
+      "id": "CH11",
+      "num": 11,
+      "title": "Knowledge Representation and Reasoning",
+      "part": "Context and World Knowledge",
+      "keywords": [
+        "knowledge representation",
+        "reasoning",
+        "frame",
+        "QA"
+      ],
+      "summary": "The chapter introduces knowledge representation and reasoning and applies them to simple natural-language question answering.",
+      "subtopics": [
+        [
+          "11.1",
+          "Knowledge representation"
+        ],
+        [
+          "11.2",
+          "Frames: representing stereotypical information"
+        ],
+        [
+          "11.3",
+          "Handling natural language quantification"
+        ],
+        [
+          "11.4",
+          "Time and aspectual classes of verbs"
+        ],
+        [
+          "11.5",
+          "Procedural semantics and question answering"
+        ]
+      ]
+    },
+    "CH12": {
+      "id": "CH12",
+      "num": 12,
+      "title": "Discourse Context and Reference",
+      "part": "Context and World Knowledge",
+      "keywords": [
+        "discourse context",
+        "reference",
+        "anaphora",
+        "pronoun",
+        "centering"
+      ],
+      "summary": "The chapter introduces local discourse context and discourse entities, with emphasis on reference expressions, pronouns, centering, definite descriptions, sets, ellipsis and surface anaphora.",
+      "subtopics": [
+        [
+          "12.1",
+          "Defining local discourse context and discourse entities"
+        ],
+        [
+          "12.2",
+          "Simple model of anaphora based on history list"
+        ],
+        [
+          "12.3",
+          "Pronouns and centering"
+        ],
+        [
+          "12.4",
+          "Definite descriptions"
+        ],
+        [
+          "12.5",
+          "Definite reference and sets"
+        ],
+        [
+          "12.6",
+          "Ellipsis"
+        ],
+        [
+          "12.7",
+          "Surface anaphora"
+        ]
+      ]
+    }
+  },
+  "assignments": {
+    "overview": {
+      "assignment_id": "BTL01",
+      "title": "Intelligent Course Assistant",
+      "team_size": "3-4 students",
+      "deadline": "21/11/2026",
+      "domain": "Course information and learning support",
+      "goal": "Xây dựng hệ thống xử lý câu hỏi tự nhiên trong miền thông tin của một môn học. Hệ thống phải thể hiện pipeline NLP từ parsing đến semantic interpretation và question answering."
+    },
+    "parts": {
+      "PART_I": {
+        "id": "PART_I",
+        "roman": "I",
+        "title": "Grammar and Parser",
+        "requirements": [
+          "xây dựng grammar cho miền Course Assistant",
+          "sinh câu hợp lệ từ grammar",
+          "xây dựng parser",
+          "xuất parse tree",
+          "xử lý câu không hợp lệ"
+        ],
+        "suggested_outputs": [
+          "output/grammar.txt",
+          "output/samples.txt",
+          "output/parse-results.txt"
+        ]
+      },
+      "PART_II": {
+        "id": "PART_II",
+        "roman": "II",
+        "title": "Semantic Interpretation and QA",
+        "minimum_requirements": [
+          "semantic representation",
+          "intent identification",
+          "entity extraction",
+          "query to knowledge base",
+          "answer generation",
+          "xử lý câu hỏi ngoài miền",
+          "xử lý trường hợp không tìm thấy thông tin"
+        ],
+        "suggested_intents": [
+          "GET_COURSE_INFO",
+          "GET_SCHEDULE",
+          "GET_TOPIC",
+          "GET_ASSIGNMENT",
+          "GET_DEADLINE",
+          "GET_RESOURCE",
+          "GET_RULE",
+          "GET_INSTRUCTOR",
+          "UNKNOWN"
+        ]
+      },
+      "PART_III": {
+        "id": "PART_III",
+        "roman": "III",
+        "title": "Local Discourse Context",
+        "optional_or_extension": [
+          "xử lý một số hội thoại nhiều lượt",
+          "lưu discourse entities đơn giản",
+          "xử lý tham chiếu đại từ hoặc mô tả xác định",
+          "xử lý một số trường hợp ellipsis đơn giản"
+        ]
+      },
+      "PART_IV": {
+        "id": "PART_IV",
+        "roman": "IV",
+        "title": "Evaluation",
+        "requirements": [
+          "tạo test set",
+          "đo accuracy hoặc metric phù hợp",
+          "phân tích lỗi",
+          "trình bày các trường hợp hệ thống không trả lời đúng"
+        ]
+      }
+    },
+    "extension": {
+      "status": "optional",
+      "description": "Sinh viên có thể mở rộng bằng retrieval và/hoặc LLM. Phần này chỉ là\nmở rộng của NLP, không bắt buộc.",
+      "not_required": "- agent\n- multi-agent\n- fine-tuning LLM\n- huấn luyện language model\n- RAG pipeline quy mô lớn"
+    }
+  },
+  "resources": {
+    "note": "Sinh viên nên xem thêm các giáo trình văn phạm tiếng Anh và tiếng Việt ở bậc đại học để hiểu sâu hơn về cú pháp và có thể vận dụng vào xây dựng hệ thống hiểu ngôn ngữ tự nhiên.",
+    "items": [
+      {
+        "title": "Lecture Slides from the Stanford Coursera course by Dan Jurafsky and Christopher Manning",
+        "year": "2016",
+        "usage": "foundational NLP concepts",
+        "kind": "TEXTBOOK",
+        "no": 1,
+        "authors": ""
+      },
+      {
+        "title": "Introduction to Natural Language Processing",
+        "author": "Jacob Eisenstein",
+        "publisher": "The MIT Press",
+        "year": "2019",
+        "usage": "NLP foundations and statistical methods",
+        "kind": "TEXTBOOK",
+        "no": 2,
+        "authors": "Jacob Eisenstein"
+      },
+      {
+        "title": "Xử lý ngôn ngữ tự nhiên",
+        "author": "Phan Thị Tươi",
+        "publisher": "Nhà xuất bản Đại học Quốc gia TP Hồ Chí Minh",
+        "year": "2012",
+        "usage": "Vietnamese NLP reference",
+        "kind": "TEXTBOOK",
+        "no": 3,
+        "authors": "Phan Thị Tươi"
+      },
+      {
+        "title": "Foundation of Statistical Natural Language Processing",
+        "authors": "Christopher D. Manning; Hinrich Schütze",
+        "publisher": "The MIT Press",
+        "year": "2001",
+        "usage": "statistical NLP",
+        "kind": "REFERENCE",
+        "no": 1
+      },
+      {
+        "title": "Natural Language Processing with Python",
+        "authors": "Steven Bird; Ewan Klein; Edward Loper",
+        "year": "2009",
+        "usage": "practical NLP with Python",
+        "kind": "REFERENCE",
+        "no": 2
+      },
+      {
+        "title": "Speech and Language Processing",
+        "authors": "Daniel Jurafsky; James H. Martin",
+        "year": "2019",
+        "usage": "broad NLP reference",
+        "kind": "REFERENCE",
+        "no": 3
+      },
+      {
+        "title": "An Introduction to Machine Translation",
+        "author": "W. John Hutchins",
+        "year": "1992",
+        "usage": "machine translation background",
+        "kind": "REFERENCE",
+        "no": 4,
+        "authors": "W. John Hutchins"
+      },
+      {
+        "title": "Natural Language Understanding and World Knowledge",
+        "usage": "world knowledge and inference",
+        "kind": "REFERENCE",
+        "no": 5,
+        "authors": ""
+      }
+    ]
+  },
+  "regulations": {
+    "attendance": "Sinh viên được khuyến khích tham dự đầy đủ các buổi học và thực hiện\ncác bài tập được giao.",
+    "academic_integrity": "Sinh viên phải tuân thủ nguyên tắc liêm chính học thuật và code of ethics.",
+    "AI_usage": "Sinh viên phải khai báo việc sử dụng AI trong báo cáo, nghiên cứu và\nquá trình thực hiện theo quy định của môn học.",
+    "source_code": "Sinh viên phải hiểu và có khả năng giải thích mã nguồn do nhóm sử dụng.",
+    "assignment_sharing": "Không được sao chép hoặc chia sẻ bài làm giữa các nhóm.",
+    "external_libraries": "Được phép sử dụng thư viện công khai nếu tuân thủ yêu cầu của bài tập.",
+    "LLM_RAG": "LLM/RAG nếu được sử dụng chỉ nên đóng vai trò mở rộng. Sinh viên phải\nmô tả rõ mô hình, dữ liệu, retrieval và cách đánh giá.",
+    "OUT_OF_SCOPE": "Hệ thống Course Assistant chỉ chịu trách nhiệm trong phạm vi dữ liệu\nmôn học. Với câu hỏi ngoài phạm vi hoặc không có dữ liệu, hệ thống phải\nthông báo rằng không tìm thấy thông tin thay vì tự tạo thông tin."
+  },
+  "faq": [
+    {
+      "id": "Q1",
+      "question": "Môn NLP có bao nhiêu tín chỉ?",
+      "answer": "Môn Xử lý Ngôn ngữ Tự nhiên (CO3085) có 3 tín chỉ."
+    },
+    {
+      "id": "Q2",
+      "question": "NLP có những phần chính nào?",
+      "answer": "Môn học gồm ba phần chính: Xử lý cú pháp; Diễn dịch ngữ nghĩa; và Ngữ cảnh và tri thức thế giới."
+    },
+    {
+      "id": "Q3",
+      "question": "Chương nào học về CFG?",
+      "answer": "CFG được trình bày trong Chương 3, Grammar and Parsing."
+    },
+    {
+      "id": "Q4",
+      "question": "Chương nào học về PCFG?",
+      "answer": "PCFG được trình bày trong Chương 3 và tiếp tục được sử dụng trong Chương 6 về các phương pháp thống kê."
+    },
+    {
+      "id": "Q5",
+      "question": "Chương nào học về Features và Augmented Grammar?",
+      "answer": "Chương 4."
+    },
+    {
+      "id": "Q6",
+      "question": "Chương nào học về semantic grammar?",
+      "answer": "Chương 10, Other Strategies for Semantic Interpretation."
+    },
+    {
+      "id": "Q7",
+      "question": "Chương nào học về knowledge representation?",
+      "answer": "Chương 11."
+    },
+    {
+      "id": "Q8",
+      "question": "Chương nào học về local discourse context?",
+      "answer": "Chương 12."
+    },
+    {
+      "id": "Q9",
+      "question": "L.O.4.2 liên quan đến nội dung gì?",
+      "answer": "L.O.4.2 liên quan đến ngữ cảnh diễn ngôn cục bộ và sự tham chiếu."
+    },
+    {
+      "id": "Q10",
+      "question": "L.O.2.5 liên quan đến nội dung gì?",
+      "answer": "L.O.2.5 liên quan đến lý thuyết xác suất và việc giải quyết nhập nhằng từ ở mức câu."
+    },
+    {
+      "id": "Q11",
+      "question": "L.O.3.3 liên quan đến nội dung gì?",
+      "answer": "L.O.3.3 liên quan đến giải quyết nhập nhằng ngữ nghĩa dựa trên cơ sở tri thức và thống kê."
+    },
+    {
+      "id": "Q12",
+      "question": "Bài tập lớn có thể sử dụng LLM hoặc RAG không?",
+      "answer": "Có thể sử dụng như một phần mở rộng nếu được cho phép, nhưng LLM/RAG không thay thế các yêu cầu NLP cốt lõi."
+    },
+    {
+      "id": "Q13",
+      "question": "Nếu hệ thống không tìm thấy câu trả lời thì phải làm gì?",
+      "answer": "Hệ thống nên thông báo rằng không tìm thấy thông tin trong knowledge base thay vì tự tạo thông tin."
+    },
+    {
+      "id": "Q14",
+      "question": "Midterm kéo dài bao lâu?",
+      "answer": "Theo đề cương, midterm có thời lượng 60 phút."
+    },
+    {
+      "id": "Q15",
+      "question": "Final kéo dài bao lâu?",
+      "answer": "Theo đề cương, final có thời lượng 90 phút."
+    }
+  ]
+}

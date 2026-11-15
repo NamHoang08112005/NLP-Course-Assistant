@@ -2,8 +2,8 @@
 
 ## Current status
 
-Đây là project Python cho bài tập lớn NLP Course Assistant. Project hiện chạy
-được phần Group A:
+Đây là project Python cho bài tập lớn NLP Course Assistant. Project có pipeline
+Group A và các module RAG cho phần Group B:
 
 ```text
 input/sentences.txt
@@ -16,9 +16,9 @@ input/sentences.txt
 - Python 3.11 trở lên. Python 3.11, 3.12, 3.13 và 3.14 đều có thể dùng.
 - hoặc Docker Desktop nếu chạy bằng container.
 
-Project hiện không dùng thư viện Python bên ngoài. File `requirements.txt` được
-giữ lại để phục vụ cách cài đặt chuẩn và có thể bổ sung dependency khi mở rộng
-RAG/LLM.
+Option RAG thống kê dùng thư viện chuẩn của Python. Option RAG dùng LLM cần các
+dependency trong `requirements.txt`; cài bằng lệnh
+`python -m pip install -r requirements.txt`.
 
 ## Cấu trúc chính
 
@@ -26,10 +26,12 @@ RAG/LLM.
 project/
 ├── data/
 │   ├── course/                  # Knowledge base mẫu của môn học
+│   ├── evaluation/              # Các câu hỏi dùng để test hệ thống
 │   ├── grammar/course_assistant.cfg
 │   └── lexicon/entities.txt
 ├── input/
-│   └── sentences.txt            # Mỗi dòng là một câu cần phân tích
+│   ├── sentences.txt            # Mỗi dòng là một câu cần phân tích
+│   └── dialogue.txt             # Các đoạn hội thoại có ngữ cảnh
 ├── output/
 │   ├── Expected/                # Kết quả tham khảo, không sửa file này
 │   └── ...                      # Kết quả được sinh khi chạy chương trình
@@ -68,43 +70,53 @@ py --list
 Chỉ chọn phiên bản từ **3.11 trở lên**. Ví dụ, nếu kết quả có `3.12` nhưng
 không có `3.11`, dùng `py -3.12 -m venv .venv`.
 
-## Chương trình thực hiện
+## Chương trình thực hiện & Kiến trúc hệ thống
+
+Kiến trúc hệ thống chạy theo một pipeline tuần tự từ xử lý ngôn ngữ tự nhiên đến truy xuất tri thức:
 
 ### 1. Đọc các câu hỏi từ
-
 ```text
 input/sentences.txt
 ```
-
 - Mỗi dòng trong file là một câu hỏi hoặc yêu cầu.
 - Chương trình xử lý lần lượt từng dòng.
-- Các câu thuộc miền dữ liệu môn học được dùng làm input cho Group A.
 
 ### 2. Phân tích từng câu bằng
-
 ```text
 Grammar -> Parser -> Semantic -> Intent/Entity
 ```
-
-- **Grammar:** đọc văn phạm CFG trong `data/grammar/course_assistant.cfg`.
-- **Parser:** kiểm tra câu có phù hợp với văn phạm và tạo cây cú pháp.
-- **Semantic:** ánh xạ câu đã phân tích sang biểu diễn ngữ nghĩa.
-- **Intent/Entity:** xác định ý định và các thực thể/thông tin liên quan.
+- **Mô tả Grammar:** Đọc văn phạm CFG chuyên biệt cho miền CO3085 trong `data/grammar/course_assistant.cfg`. Bao phủ 8 nhóm câu hỏi chính: Thông tin chung, Lịch học, Nội dung chương, Chuẩn đầu ra, Bài tập lớn, Deadline, Tài liệu, và Quy định.
+- **Mô tả Parser:** Xây dựng bộ phân tích cú pháp đệ quy có nhớ (Memoized Top-Down Recursive-Descent). Kiểm tra câu có phù hợp với văn phạm và tạo cây cú pháp, kết hợp chặn các cụm từ sai ngữ cảnh từ vựng.
+- **Mô tả Semantic Representation:** Ánh xạ cây cú pháp sang biểu diễn ngữ nghĩa dạng vị từ - đối số (ví dụ: `GET_CREDIT(course=CO3085)`).
+- **Mô tả Intent/Entity:** Bóc tách ý định (Intent) và chuẩn hóa các thực thể (Entity) qua từ điển `entities.txt` để truyền cho module RAG. Hỗ trợ xử lý ngữ cảnh hội thoại cục bộ (nhận diện "chương này", "phần này").
 
 ### 3. Ghi kết quả vào thư mục
-
 ```text
 output/
 ```
-
 - `output/grammar.txt`: văn phạm được sử dụng.
 - `output/samples.txt`: tối đa 10.000 câu được sinh từ CFG.
 - `output/parse-results.txt`: cây cú pháp của từng câu.
 - `output/semantic.txt`: biểu diễn ngữ nghĩa của từng câu.
 - `output/intent-entity.txt`: intent và entity được nhận diện.
+- `output/query.txt`: câu hỏi kèm intent/entity theo format `Q001 | QUERY | EXPECTED_INTENT | EXPECTED_ENTITY`.
+- `output/retrieval.txt`: Trích xuất context từ knowledge base (hiển thị Nguồn và Context).
+- `output/dialogue.txt`: Kết quả phân giải ngữ cảnh hội thoại cục bộ (Phần III).
+- `output/evaluation.txt`: Báo cáo đánh giá hệ thống (Phần IV).
+- `output/answer.txt` hoặc `output/answer_llm.txt`: mỗi dòng chỉ chứa số thứ tự và câu trả lời, tùy option RAG được chọn.
 
-Chương trình không in các kết quả này ra terminal. Sau khi chạy xong, mở các
-file trong thư mục `output/` để xem kết quả.
+## Knowledge Base & RAG phần II
+
+- **Mô tả Knowledge Base:** Dữ liệu thô (`data/course/*.txt`) được parse tự động thành file `knowledge_base.json` có cấu trúc phân cấp để tra cứu.
+- **Lựa chọn Classical vs LLM:** Hệ thống hỗ trợ cả 2 chế độ, cấu hình qua khóa `option` trong `models/rag_config.json`:
+
+1. `"option": "statistical"` (mặc định - Lựa chọn 1): Sử dụng phương pháp Classical NLP. Truy xuất TF-IDF (Unigram+Bigram) từ `knowledge_base.json` kết hợp tra cứu khe ngữ nghĩa (Slot-filling). Lưu câu trả lời vào `output/answer.txt`. Không cần API key.
+2. `"option": "llm"` (Lựa chọn 2): Chia knowledge base thành chunks, tạo embeddings bằng `text-embedding-3-small`, lưu index FAISS local tại `models/faiss_index`, truy xuất (Retrieval) rồi đóng gói vào Grounded Prompt để sinh câu trả lời bằng `gpt-4o-mini`; output là `output/answer_llm.txt`. Option này cần đặt `OPENAI_API_KEY` trong file `.env`.
+
+## Đánh giá hệ thống (Phần IV) & Hạn chế
+
+- **Đánh giá hệ thống:** Chạy kiểm thử tự động trên bộ `data/evaluation/sample_queries.txt` (40 cases) bao gồm câu hợp lệ, paraphrase, câu ngoài phạm vi và câu thiếu dữ liệu. Hệ thống đạt độ chính xác 100% trên bộ test chuẩn và ~72% tỷ lệ khớp văn phạm trên toàn bộ corpus stress-test 731 câu. Chi tiết xem tại `output/evaluation.txt`.
+- **Hạn chế của hệ thống:** Văn phạm CFG dựa trên luật tĩnh nên nhạy cảm với lỗi chính tả, teencode ("ntn", "đc ko"), và tiếng Việt không dấu. Hiện chưa hỗ trợ tốt các câu hỏi ghép nhiều thực thể phức tạp (ví dụ: "Tuần 3 và tuần 4 học gì?").
 
 ## Chạy bằng Docker
 
@@ -145,15 +157,7 @@ docker run --rm `
     course-assistant
 ```
 
-Sau khi chạy, kiểm tra các file sau trên máy host:
-
-```text
-output/grammar.txt
-output/samples.txt
-output/parse-results.txt
-output/semantic.txt
-output/intent-entity.txt
-```
+Sau khi chạy, kiểm tra các file xuất ra trên máy host trong thư mục `output/`.
 
 ### Chạy lại sau khi thay đổi mã nguồn
 
@@ -193,13 +197,9 @@ foreach ($pair in $pairs) {
 
 ## Trạng thái hiện tại
 
-- Grammar, parser, sentence generator, semantic mapping và formatters của
-    Group A đã được triển khai.
+- Toàn bộ các module cốt lõi của Group A và Group B đã hoàn thiện. Hệ thống tích hợp đầy đủ pipeline từ Grammar, Parser, Semantic Analysis, đến Retrieval, RAG và Đánh giá tự động.
 - `input/sentences.txt` là corpus câu đơn thuộc miền dữ liệu mẫu của project.
-- Phần Group B/RAG và xử lý hội thoại là phần mở rộng riêng; `pipeline.py`
-    hiện chưa phải entry point hoàn chỉnh cho toàn bộ Course Assistant.
-- Dữ liệu trong `data/course/` là dữ liệu mẫu phục vụ bài tập. Một số lịch,
-    deadline và quy định chỉ là dữ liệu mô phỏng; xem thêm `data/00_README.txt`.
+- Dữ liệu trong `data/course/` là dữ liệu mẫu phục vụ bài tập. Một số lịch, deadline và quy định chỉ là dữ liệu mô phỏng; xem thêm `data/00_README.txt`.
 
 ## Ghi chú khi nộp riêng thư mục project
 

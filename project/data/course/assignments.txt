@@ -8,6 +8,7 @@ Assistant. Đây không phải lịch nộp chính thức của học phần.
 assignment_id: BTL01
 title: Intelligent Course Assistant
 team_size: 3-4 students
+deadline: 21/11/2026
 domain: Course information and learning support
 goal:
 Xây dựng hệ thống xử lý câu hỏi tự nhiên trong miền thông tin của một

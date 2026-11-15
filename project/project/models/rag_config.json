@@ -1,0 +1,7 @@
+﻿{
+  "provider": "",
+  "model": "",
+  "retrieval": {
+    "top_k": 5
+  }
+}

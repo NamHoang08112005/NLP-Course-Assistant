@@ -1,0 +1,74 @@
+=== DIALOGUE 01 ===
+[Turn 1]
+- User Input: Tuần 3 học gì?
+- Context Used: NONE
+- Semantic Interpretation: GET_SCHEDULE(week=WEEK_03)
+- System Answer: Tuần 3 học Chương 3 về Văn phạm và phân tích cú pháp, gồm CFG, top-down parsing, bottom-up chart parsing, PCFG và dependency grammar.
+- Context Updated: {'week': 'WEEK_03'}
+
+[Turn 2]
+- User Input: Tài liệu của chương này là gì?
+- Context Used: "chương này" -> CH03 (từ Turn 1)
+- Resolved Question: Tài liệu của chương 3 là gì?
+- Semantic Interpretation: GET_RESOURCE(chapter=CH03)
+- System Answer: Có thể tham khảo các tài liệu nền tảng NLP trong danh sách resources cho CH03 (Grammar and Parsing): Speech and Language Processing (Jurafsky & Martin), Introduction to NLP (Eisenstein).
+
+=== DIALOGUE 02 ===
+[Turn 1]
+- User Input: Chương 4 nói về gì?
+- Context Used: NONE
+- Semantic Interpretation: GET_TOPIC(chapter=CH04)
+- System Answer: Chương 4 nói về Features và Augmented Grammar.
+- Context Updated: {'chapter': 'CH04'}
+
+[Turn 2]
+- User Input: Nó có liên quan đến parsing không?
+- Context Used: "Nó" -> CH04 (từ Turn 1)
+- Resolved Question: Chương 4 có liên quan đến parsing không?
+- Semantic Interpretation: GET_TOPIC(chapter=CH04, topic=PARSING, yesno=TRUE)
+- System Answer: Có. Chương 4 (Features and Augmented Grammar) trình bày: The chapter extends formal grammar with feature systems and augmented grammar. It covers lexicon, parsing with features, augmented transition networks, generalized feature systems and unification grammar.
+
+=== DIALOGUE 03 ===
+[Turn 1]
+- User Input: Bài tập lớn có phần parser không?
+- Context Used: NONE
+- Semantic Interpretation: GET_ASSIGNMENT(assignment=BTL01, part=PART_I)
+- System Answer: Có. Phần I của bài tập lớn yêu cầu xây dựng grammar và parser.
+- Context Updated: {'assignment': 'BTL01', 'part': 'PART_I'}
+
+[Turn 2]
+- User Input: Phần này cần xuất file gì?
+- Context Used: "Phần này" -> PART_I_GRAMMAR_PARSER (từ Turn 1)
+- Resolved Question: Phần I của bài tập lớn cần xuất file gì?
+- Semantic Interpretation: GET_ASSIGNMENT(assignment=BTL01, part=PART_I, attribute=outputs)
+- System Answer: Các output mẫu gồm grammar.txt, samples.txt, parse-results.txt.
+
+=== DIALOGUE 04 ===
+[Turn 1]
+- User Input: Chương 11 có hỏi đáp không?
+- Context Used: NONE
+- Semantic Interpretation: GET_TOPIC(chapter=CH11, topic=QUESTION_ANSWERING, yesno=TRUE)
+- System Answer: Có. Chương 11 đề cập đến procedural semantics và question answering.
+- Context Updated: {'chapter': 'CH11', 'topic': 'QUESTION_ANSWERING', 'yesno': 'TRUE'}
+
+[Turn 2]
+- User Input: Còn chương sau?
+- Context Used: "chương sau" -> CH12 (từ Turn 1)
+- Resolved Question: Chương 12 nói về gì?
+- Semantic Interpretation: GET_TOPIC(chapter=CH12)
+- System Answer: Chương 12 (Discourse Context and Reference): The chapter introduces local discourse context and discourse entities, with emphasis on reference expressions, pronouns, centering, definite descriptions, sets, ellipsis and surface anaphora.
+
+=== DIALOGUE 05 ===
+[Turn 1]
+- User Input: L.O.2.5 học về gì?
+- Context Used: NONE
+- Semantic Interpretation: GET_LO(lo=LO2.5)
+- System Answer: L.O.2.5 liên quan đến lý thuyết xác suất để giải quyết nhập nhằng từ ở mức câu.
+- Context Updated: {'lo': 'LO2.5'}
+
+[Turn 2]
+- User Input: Nội dung này nằm ở chương nào?
+- Context Used: "Nội dung này" -> LO2.5 (từ Turn 1)
+- Resolved Question: Chương 6 nói về gì?
+- Semantic Interpretation: GET_TOPIC(lo=LO2.5, chapter=CH06, attribute=chapter)
+- System Answer: Nội dung này thuộc Chương 6, Ambiguity Resolution - Statistical Methods.

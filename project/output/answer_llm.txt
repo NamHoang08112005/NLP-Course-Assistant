@@ -1,0 +1,150 @@
+1 | Môn Xử lý Ngôn ngữ Tự nhiên (CO3085) có 3 tín chỉ. [Nguồn: faq]
+2 | Môn Xử lý Ngôn ngữ Tự nhiên (CO3085) có 3 tín chỉ. [Nguồn: faq]
+3 | Môn Xử lý Ngôn ngữ Tự nhiên (CO3085) có 3 tín chỉ. [Nguồn: faq]
+4 | Môn Xử lý Ngôn ngữ Tự nhiên (CO3085) có 3 tín chỉ. [Nguồn: faq]
+5 | Môn Xử lý Ngôn ngữ Tự nhiên (CO3085) có 3 tín chỉ. [Nguồn: faq]
+6 | Môn Xử lý Ngôn ngữ Tự nhiên (CO3085) có 3 tín chỉ. [Nguồn: faq]
+7 | Thông tin về ECTS không có trong ngữ cảnh đã cung cấp. Vui lòng cung cấp thêm thông tin để tôi có thể trả lời câu hỏi này.
+8 | Không tìm thấy thông tin về ECTS của môn CO3085. [Nguồn: regulations]
+9 | Thông tin về học kỳ mà môn NLP được giảng dạy chưa có trong ngữ cảnh.
+10 | Tên đầy đủ của môn CO3085 là Xử lý Ngôn ngữ Tự nhiên. [Nguồn: course_info]
+11 | Tên tiếng Anh của môn CO3085 là "Natural Language Processing". [Nguồn: course_info]
+12 | CO3085 là môn Xử lý Ngôn ngữ Tự nhiên. Môn học này cung cấp các khái niệm, lý thuyết và kỹ thuật nền tảng của xử lý ngôn ngữ tự nhiên, được tổ chức thành ba phần chính: (1) Xử lý cú pháp, (2) Diễn dịch ngữ nghĩa, và (3) Ngữ cảnh và tri thức thế giới. [Nguồn: course_info]
+13 | Thông tin về khoa mà môn NLP thuộc về chưa có trong ngữ cảnh.
+14 | Thông tin về khoa quản lý môn CO3085 không có trong ngữ cảnh đã cung cấp.
+15 | Thông tin về khối kiến thức mà môn NLP thuộc về chưa có trong ngữ cảnh cung cấp.
+16 | Thông tin về số tiết học mỗi tuần cho môn NLP chưa có trong ngữ cảnh. [Nguồn: ...]
+17 | Thông tin về số tuần học của môn NLP chưa có trong ngữ cảnh.
+18 | Thông tin về tổng số giờ của môn Xử lý Ngôn ngữ Tự nhiên (NLP) chưa có trong ngữ cảnh cung cấp.
+19 | Thông tin về số giờ lý thuyết của môn Xử lý Ngôn ngữ Tự nhiên (NLP) chưa có trong ngữ cảnh cung cấp.
+20 | Thông tin về số giờ làm bài tập lớn chưa có trong ngữ cảnh.
+21 | Thông tin về số giờ tự học cho môn Xử lý Ngôn ngữ Tự nhiên (NLP) chưa có trong ngữ cảnh cung cấp.
+22 | Mô tả của môn học Xử lý Ngôn ngữ Tự nhiên (CO3085) là cung cấp các khái niệm, lý thuyết và kỹ thuật nền tảng của xử lý ngôn ngữ tự nhiên. Nội dung được tổ chức thành ba phần chính: (1) Xử lý cú pháp, (2) Diễn dịch ngữ nghĩa, và (3) Ngữ cảnh và tri thức thế giới. Mục tiêu của môn học là giúp sinh viên có khả năng phân tích các vấn đề NLP và xây dựng các chương trình/hệ thống cơ bản có khả năng hiểu ngôn ngữ tự nhiên trong một miền ứng dụng cụ thể. [Nguồn: course_info]
+23 | Mục tiêu của môn NLP là sinh viên có khả năng phân tích các vấn đề NLP và xây dựng các chương trình/hệ thống cơ bản có khả năng hiểu ngôn ngữ tự nhiên trong một miền ứng dụng cụ thể. [Nguồn: course_info]
+24 | Môn học gồm ba phần chính: Xử lý cú pháp; Diễn dịch ngữ nghĩa; và Ngữ cảnh và tri thức thế giới. [Nguồn: faq]
+25 | Môn học gồm ba phần chính: Xử lý cú pháp; Diễn dịch ngữ nghĩa; và Ngữ cảnh và tri thức thế giới. [Nguồn: faq]
+26 | Môn học gồm ba phần chính: Xử lý cú pháp; Diễn dịch ngữ nghĩa; và Ngữ cảnh và tri thức thế giới. [Nguồn: faq]
+27 | Thông tin về các chuẩn đầu ra của môn NLP chưa có trong ngữ cảnh được cung cấp.
+28 | Thông tin về tỷ lệ phần trăm điểm chuyên cần và bài tập không có trong ngữ cảnh đã cung cấp. Vui lòng cung cấp thêm thông tin để tôi có thể trả lời chính xác hơn. [Nguồn: ...]
+29 | Thông tin về tỷ lệ phần trăm điểm của bài tập lớn không có trong ngữ cảnh đã cung cấp. Vui lòng cung cấp thêm thông tin để có thể trả lời chính xác. [Nguồn: ...]
+30 | Thông tin về tỷ lệ phần trăm điểm của thi giữa kỳ không có trong ngữ cảnh đã cung cấp. [Nguồn: ...]
+31 | Thông tin về tỷ lệ phần trăm điểm của thi cuối kỳ chưa có trong ngữ cảnh. [Nguồn: ...]
+32 | Thông tin về tỷ lệ phần trăm điểm của midterm không có trong ngữ cảnh đã cung cấp. [Nguồn: ...]
+33 | Thông tin về tỷ lệ phần trăm điểm của final chưa có trong ngữ cảnh. [Nguồn: ...]
+34 | Thông tin về cách tính điểm của môn Xử lý Ngôn ngữ Tự nhiên (NLP) chưa có trong ngữ cảnh cung cấp.
+35 | Midterm có thời lượng 60 phút. [Nguồn: faq]
+36 | Final có thời lượng 90 phút [Nguồn: faq].
+37 | Theo đề cương, midterm có thời lượng 60 phút. [Nguồn: faq]
+38 | Theo đề cương, thi cuối kỳ (final) có thời lượng 90 phút. [Nguồn: faq]
+39 | Thông tin về hình thức thi của midterm chưa có trong ngữ cảnh.
+40 | Không tìm thấy thông tin về việc thi cuối kỳ có được mở tài liệu hay không trong ngữ cảnh đã cung cấp. [Nguồn: regulations]
+41 | Thông tin về số chương của môn NLP chưa có trong ngữ cảnh.
+42 | Môn học có 10 chương. [Nguồn: schedule]
+43 | Thông tin về các chương trong môn NLP chưa có trong ngữ cảnh được cung cấp.
+44 | Thông tin về số lượng LO (Learning Outcomes) cho môn Xử lý Ngôn ngữ Tự nhiên (NLP) không có trong ngữ cảnh đã cung cấp. Vui lòng cung cấp thêm thông tin hoặc kiểm tra nguồn khác. [Nguồn: ...]
+45 | Thông tin về các LO (Learning Outcomes) của môn NLP chưa có trong ngữ cảnh được cung cấp.
+46 | Thông tin về tỷ lệ phần trăm điểm của thi giữa kì không có trong ngữ cảnh đã cung cấp. [Nguồn: ...]
+47 | Thông tin về tỷ lệ phần trăm điểm của thi cuối kì chưa có trong ngữ cảnh. [Nguồn: ...]
+48 | Thông tin về học kỳ mà môn NLP được giảng dạy chưa có trong ngữ cảnh.
+49 | Thông tin về việc có được mở tài liệu trong thi giữa kỳ không có trong ngữ cảnh đã cung cấp. Bạn cần kiểm tra quy định cụ thể của môn học hoặc hỏi giảng viên để biết thêm chi tiết. [Nguồn: ...]
+50 | Theo đề cương, midterm có thời lượng 60 phút. [Nguồn: faq]
+51 | Thông tin về môn NLP HK261 chưa có trong ngữ cảnh cung cấp. [Nguồn: ...]
+52 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+53 | Giảng viên dạy môn Xử lý Ngôn ngữ Tự nhiên (NLP) là Võ Thanh Hùng. [Nguồn: course_info]
+54 | Giảng viên của môn Xử lý Ngôn ngữ Tự nhiên (CO3085) là Võ Thanh Hùng. [Nguồn: course_info]
+55 | Giảng viên môn CO3085 là Võ Thanh Hùng. [Nguồn: course_info]
+56 | Tuần 1 học về nghiên cứu ngôn ngữ tự nhiên, ứng dụng text-based, ứng dụng dialog-based, đánh giá hệ thống hiểu ngôn ngữ tự nhiên, các mức phân tích ngôn ngữ, biểu diễn và hiểu ngôn ngữ, tổ chức hệ thống NLU. [Nguồn: schedule]
+57 | Tuần 2 học những nội dung bao gồm words, simple noun phrases, verb phrases, simple sentences, adjective phrases, adverbial phrases. [Nguồn: schedule]
+58 | Tuần 3 có nội dung bao gồm context-free grammar, grammar and sentence structure, top-down parsing, bottom-up chart parsing, top-down chart parsing, probabilistic context-free grammar, dependency grammar, Stanford dependencies. [Nguồn: schedule]
+59 | Tuần 4 nói về feature systems, augmented grammars, feature systems for English, lexicon, grammar using feature systems, và parsing with features. [Nguồn: schedule]
+60 | Tuần 5 học về augmented transition networks, generalized feature systems, unification grammar. [Nguồn: schedule]
+61 | Tuần 6 học về auxiliary verbs and verb phrases, movement phenomena, handling questions in CFG, và relative clauses. [Nguồn: schedule]
+62 | Tuần 7 học những nội dung bao gồm basic probability theory, estimating probabilities, part-of-speech tagging, lexical probabilities, probabilistic context-free grammar. [Nguồn: schedule]
+63 | Tuần 8 (Chương Chapter 6) có nội dung bao gồm best-first parsing, simple context-dependent best-first parser. Cột mốc quan trọng: BTL checkpoint 1 - grammar and parser. [Nguồn: schedule]
+64 | Tuần 9 nói về semantics and logical form, word senses and ambiguity, basic logical form language, encoding ambiguity in logical form, verbs and states, thematic roles, speech acts and embedded sentences. [Nguồn: schedule]
+65 | Tuần 10 học về semantic interpretation and compositionality, grammar and lexicon with semantic interpretation, prepositional phrases and verb phrases, lexicalized semantic interpretation, semantic roles, và handling simple questions. [Nguồn: schedule]
+66 | Tuần 11 (Chương Chapter 9) học về selectional restrictions, semantic filtering, semantic networks, và statistical word sense disambiguation. [Nguồn: schedule]
+67 | Tuần 12 học những nội dung về grammatical relations, semantic grammars, template matching, semantically driven parsing. Cột mốc quan trọng là BTL checkpoint 2 - semantic interpretation and QA. [Nguồn: schedule]
+68 | Tuần 13 có nội dung bao gồm knowledge representation, frames, natural language quantification, time and aspectual classes, procedural semantics, question answering. [Nguồn: schedule]
+69 | Tuần 14 nói về local discourse context, discourse entities, anaphora, pronouns and centering, definite descriptions, definite reference and sets, ellipsis, surface anaphora. [Nguồn: schedule]
+70 | Tuần 15 học về integrate grammar/parser/semantic interpretation/QA, local discourse context, error analysis, system evaluation, demonstration và final BTL review. Cột mốc quan trọng là BTL final submission and demo. [Nguồn: schedule]
+71 | Thông tin về tuần 16 chưa có trong ngữ cảnh. [Nguồn: ...]
+72 | Tuần 5 có chủ đề học bao gồm augmented transition networks, generalized feature systems, unification grammar. [Nguồn: schedule]
+73 | Tuần 8 có cột mốc quan trọng: BTL checkpoint 1 - grammar and parser. [Nguồn: schedule]
+74 | Tuần 12 có cột mốc quan trọng: BTL checkpoint 2 - semantic interpretation and QA. [Nguồn: schedule]
+75 | Tuần 1 thuộc phần Chương 1. Chủ đề học bao gồm nghiên cứu ngôn ngữ tự nhiên, ứng dụng text-based, ứng dụng dialog-based, đánh giá hệ thống hiểu ngôn ngữ tự nhiên, các mức phân tích ngôn ngữ, biểu diễn và hiểu ngôn ngữ, tổ chức hệ thống NLU. [Nguồn: schedule]
+76 | Tuần 15 thuộc phần integrate grammar/parser/semantic interpretation/QA, local discourse context, error analysis, system evaluation, demonstration and final BTL review. [Nguồn: schedule]
+77 | Tuần 3 học chương Chapter 3. [Nguồn: schedule]
+78 | Tuần 15 học chương không được chỉ định cụ thể trong ngữ cảnh. Tuy nhiên, chủ đề học bao gồm integrate grammar/parser/semantic interpretation/QA, local discourse context, error analysis, system evaluation, demonstration and final BTL review. [Nguồn: schedule]
+79 | Tuần 8 có chủ đề học bao gồm best-first parsing và simple context-dependent best-first parser. Cột mốc quan trọng trong tuần này là BTL checkpoint 1 - grammar and parser. [Nguồn: schedule]
+80 | Tuần 1 có các hoạt động học bao gồm nghiên cứu ngôn ngữ tự nhiên, ứng dụng text-based, ứng dụng dialog-based, đánh giá hệ thống hiểu ngôn ngữ tự nhiên, các mức phân tích ngôn ngữ, biểu diễn và hiểu ngôn ngữ, tổ chức hệ thống NLU. [Nguồn: schedule]
+81 | Các tuần có milestone là: - Tuần 8: BTL checkpoint 1 - grammar and parser. - Tuần 12: BTL checkpoint 2 - semantic interpretation and QA. - Tuần 15: BTL final submission and demo. [Nguồn: schedule]
+82 | Tuần 15 có cột mốc quan trọng là BTL final submission and demo. [Nguồn: schedule]
+83 | Tuần 03 học về context-free grammar, grammar and sentence structure, top-down parsing, bottom-up chart parsing, top-down chart parsing, probabilistic context-free grammar, dependency grammar, và Stanford dependencies. [Nguồn: schedule]
+84 | Tuần thứ 3 học về context-free grammar, grammar and sentence structure, top-down parsing, bottom-up chart parsing, top-down chart parsing, probabilistic context-free grammar, dependency grammar, và Stanford dependencies. [Nguồn: schedule]
+85 | Tuần số 3 học về context-free grammar, grammar and sentence structure, top-down parsing, bottom-up chart parsing, top-down chart parsing, probabilistic context-free grammar, dependency grammar, và Stanford dependencies. [Nguồn: schedule]
+86 | Tuần 3 học về context-free grammar, grammar and sentence structure, top-down parsing, bottom-up chart parsing, top-down chart parsing, probabilistic context-free grammar, dependency grammar, và Stanford dependencies. [Nguồn: schedule]
+87 | Chương 1 học vào tuần 1. [Nguồn: schedule]
+88 | Chương 2 học vào tuần 2. [Nguồn: schedule]
+89 | Chương 3 được học ở tuần 3. [Nguồn: schedule]
+90 | Chương 4 học vào tuần 4 và tuần 5. [Nguồn: schedule]
+91 | Chương 5 học vào tuần 6. [Nguồn: schedule]
+92 | Chương 6 được học ở tuần 7 và tuần 8. [Nguồn: schedule]
+93 | Chương 7 học vào tuần 9. [Nguồn: schedule]
+94 | Chương 8 học vào tuần 10. [Nguồn: schedule]
+95 | Chương 9 được học ở tuần 11. [Nguồn: schedule]
+96 | Chương 10 học vào tuần 12. [Nguồn: schedule]
+97 | Chương 11 học vào tuần 13. [Nguồn: schedule]
+98 | Chương 12 được học ở tuần 14. [Nguồn: schedule]
+99 | Chapter 3 học vào tuần 3. [Nguồn: schedule]
+100 | Chương 13 không được đề cập trong ngữ cảnh. Thông tin chưa có về tuần học của Chương 13. [Nguồn: ...]
+101 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+102 | Xin lỗi, tôi không tìm thấy thông tin này trong dữ liệu của môn học.
+103 | Chương 03 học vào tuần 3. [Nguồn: schedule]
+104 | Chương 4 được học ở tuần 4 và tuần 5. [Nguồn: schedule]
+105 | CH04 học vào tuần 4 và tuần 5. [Nguồn: schedule]
+106 | CH01 học vào tuần 1. [Nguồn: schedule]
+107 | CFG (context-free grammar) được học vào tuần 3 [Nguồn: schedule].
+108 | PCFG được học trong Tuần 8, trong Chương 6. [Nguồn: faq]
+109 | Phần POS tagging nằm ở tuần 7 [Nguồn: schedule].
+110 | Unification học vào tuần 5 [Nguồn: schedule].
+111 | Thông tin về việc học WSD (Word Sense Disambiguation) không có trong ngữ cảnh đã cung cấp. Do đó, tôi không thể trả lời câu hỏi này. [Nguồn: ...]
+112 | Phần anaphora nằm ở tuần 14, trong chương 12. [Nguồn: schedule]
+113 | Question answering học vào tuần 13 và tuần 15. [Nguồn: schedule]
+114 | Tuần 14 học ellipsis. [Nguồn: schedule]
+115 | Phần local discourse context nằm ở tuần 14. [Nguồn: schedule]
+116 | Parsing học vào tuần 3 (Chương Chapter 3) và tuần 8 (Chương Chapter 6). [Nguồn: schedule]
+117 | Phần xử lý cú pháp (parsing) được học vào tuần 12 (Chương Chapter 10) và tuần 15. Trong tuần 12, chủ đề học bao gồm semantically driven parsing, và trong tuần 15, chủ đề học bao gồm integrate grammar/parser/semantic interpretation/QA. [Nguồn: schedule]
+118 | Phần Syntactic Processing được học vào tuần 3 (Chương Chapter 3), bao gồm các chủ đề như context-free grammar, grammar and sentence structure, top-down parsing, bottom-up chart parsing, top-down chart parsing, probabilistic context-free grammar, dependency grammar, Stanford dependencies. [Nguồn: schedule]
+119 | Phần diễn dịch ngữ nghĩa học được đề cập trong tuần 10 (Chương Chapter 8), với các chủ đề bao gồm semantic interpretation and compositionality, grammar and lexicon with semantic interpretation, và handling simple questions. [Nguồn: schedule]
+120 | Phần Semantic Interpretation học vào tuần 10 và tuần 12. [Nguồn: schedule]
+121 | Thông tin về phần ngữ cảnh và tri thức thế giới không có trong ngữ cảnh đã cung cấp. Do đó, tôi không thể xác định tuần nào phần này được học. [Nguồn: ...]
+122 | Thông tin về phần "Context and World Knowledge" không có trong ngữ cảnh đã cung cấp. Do đó, tôi không thể xác định tuần học cho phần này. [Nguồn: ...]
+123 | Thông tin về phần Introduction không có trong ngữ cảnh đã cung cấp. [Nguồn: ...]
+124 | Phần Integration and Evaluation học vào tuần 15, với các chủ đề bao gồm integrate grammar/parser/semantic interpretation/QA, local discourse context, error analysis, system evaluation, demonstration and final BTL review. [Nguồn: schedule]
+125 | Phần Syntactic Processing gồm các chương sau: Chương 2 (Linguistic Background - English Syntax) và Chương 3 (Grammar and Parsing) [Nguồn: topics].
+126 | Phần Semantic Interpretation gồm các chương 7, 8 và 10. Chương 7 đề cập đến semantic interpretation và logical forms, chương 8 kết nối parsing với semantic interpretation, và chương 10 giới thiệu các chiến lược khác cho semantic interpretation. [Nguồn: topics]
+127 | Thông tin về các chương trong phần Context and World Knowledge chưa có trong ngữ cảnh cung cấp.
+128 | Lexicon học vào tuần 10, trong chương Chapter 8, với chủ đề "grammar and lexicon with semantic interpretation" [Nguồn: schedule].
+129 | Procedural semantics học vào tuần 13 [Nguồn: schedule].
+130 | Grammatical relations học vào tuần 12 [Nguồn: schedule].
+131 | Semantically driven parsing nằm ở tuần 12, trong chương Chapter 10 [Nguồn: schedule].
+132 | Compositionality học vào tuần 10 [Nguồn: schedule].
+133 | Phần I học vào tuần 1 [Nguồn: schedule].
+134 | Thông tin về phần II không có trong ngữ cảnh đã cung cấp. Vui lòng cung cấp thêm thông tin để tôi có thể trả lời chính xác hơn. [Nguồn: ...]
+135 | Thông tin về phần III không có trong ngữ cảnh đã cung cấp. Vui lòng cung cấp thêm thông tin để tôi có thể trả lời chính xác hơn. [Nguồn: ...]
+136 | Phần I của môn học học vào tuần 1 [Nguồn: schedule].
+137 | Phần I của bài tập lớn học vào tuần 7, với chủ đề liên quan đến basic probability theory và các khái niệm khác trong chương Chapter 6 [Nguồn: schedule].
+138 | CFG (context-free grammar) được học vào tuần 3 trong chương 3. [Nguồn: schedule]
+139 | PCFG được học vào Tuần 7 trong Chương 6. [Nguồn: schedule]
+140 | Simple noun phrases được học ở tuần 2 [Nguồn: schedule].
+141 | Adverbial phrases được học ở tuần 2 (Chương Chapter 2) [Nguồn: schedule].
+142 | Augmented grammars được học ở tuần 4 và tuần 5, vì chương 4 bao gồm các chủ đề liên quan đến augmented grammars trong cả hai tuần này. [Nguồn: schedule]
+143 | Unification grammar được học ở tuần 5 [Nguồn: schedule].
+144 | Simple context-dependent best-first parser được học ở tuần 8 [Nguồn: schedule].
+145 | Encoding ambiguity in logical form được học ở tuần 9, trong Chương 7. [Nguồn: schedule]
+146 | Lexicalized semantic interpretation được học ở tuần 10 [Nguồn: schedule].
+147 | Semantic networks được học ở tuần 11 [Nguồn: schedule].
+148 | Definite reference and sets được học ở tuần 14 [Nguồn: schedule].
+149 | Semantic interpretation using feature unification được học ở tuần 4 (Chương Chapter 8) và tuần 12 (Chương Chapter 10) [Nguồn: schedule].
+150 | Các mức phân tích ngôn ngữ học được đề cập trong lịch học tuần 1 (Chương Chapter 1) [Nguồn: schedule].
